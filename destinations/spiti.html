@@ -27,7 +27,7 @@
       <ul>
         <!-- International Trips -->
         <li class="nav-item">
-          <a href="/destinations" class="nav-link">International Trips <i class="fas fa-chevron-down"></i></a>
+          <a href="/destinations" class="nav-link">International Trips <i class=\"fas fa-chevron-down\" aria-hidden=\"true\"></i></a>
           <div class="mega-menu">
             <div class="mega-col">
               <div class="mega-col-title">Asia</div>
@@ -67,7 +67,7 @@
 
         <!-- India Trips -->
         <li class="nav-item">
-          <a href="/destinations" class="nav-link">India Trips <i class="fas fa-chevron-down"></i></a>
+          <a href="/destinations" class="nav-link">India Trips <i class=\"fas fa-chevron-down\" aria-hidden=\"true\"></i></a>
           <div class="mega-menu">
             <div class="mega-col">
               <div class="mega-col-title">North India</div>
@@ -104,7 +104,7 @@
 
         <!-- Honeymoon -->
         <li class="nav-item">
-          <a href="/honeymoon" class="nav-link">Honeymoon <i class="fas fa-chevron-down"></i></a>
+          <a href="/honeymoon" class="nav-link">Honeymoon <i class=\"fas fa-chevron-down\" aria-hidden=\"true\"></i></a>
           <div class="mega-menu" style="min-width:300px">
             <div class="mega-col">
               <div class="mega-col-title">Top Honeymoon Destinations</div>
@@ -122,7 +122,7 @@
 
         <!-- Experiences -->
         <li class="nav-item">
-          <a href="/experiences" class="nav-link">Experiences <i class="fas fa-chevron-down"></i></a>
+          <a href="/experiences" class="nav-link">Experiences <i class=\"fas fa-chevron-down\" aria-hidden=\"true\"></i></a>
           <div class="mega-menu" style="min-width:400px">
             <div class="mega-col">
               <ul>
@@ -149,11 +149,55 @@
       </ul>
     </nav>
     <div class="header-actions">
-      <a href="tel:+919311957339" class="header-phone hide-mobile"><i class="fas fa-phone-alt"></i><span>+91-9311957339</span></a>
+      <a href="tel:+919311957339" class="header-phone hide-mobile"><i class=\"fas fa-phone-alt\" aria-hidden=\"true\"></i><span>+91-9311957339</span></a>
       <button class="mobile-toggle" id="mobileToggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
+
+<!-- Mobile Nav Overlay -->
+<div class="mobile-nav-overlay" id="mobileOverlay"></div>
+
+<!-- Mobile Slide Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/destinations" class="nav-link">International Trips</a>
+  <a href="/destinations" class="nav-link">India Trips</a>
+  <a href="/honeymoon" class="nav-link">Honeymoon</a>
+  <a href="/experiences" class="nav-link">Experiences</a>
+  <a href="/upcoming-trips" class="nav-link">Upcoming Trips</a>
+  <a href="/corporate-tours" class="nav-link">Corporate Tours</a>
+  <a href="/visa" class="nav-link">Visa</a>
+  <a href="/blogs" class="nav-link">Blog</a>
+  <a href="/about-us" class="nav-link">About Us</a>
+  <div class="mobile-menu-cta">
+    <a href="tel:+919311957339" class="btn btn--primary btn--block"><i class="fas fa-phone-alt" aria-hidden="true"></i> Call +91-9311957339</a>
+    <a href="https://wa.me/919311957339?text=Hi%20KanHolidays!%20I%27d%20like%20to%20plan%20a%20trip." class="btn btn--whatsapp btn--block" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp Us</a>
+  </div>
+</div>
+
+<!-- SEARCH OVERLAY -->
+<div class="search-overlay" id="searchOverlay">
+  <button class="search-overlay__close" id="searchClose"><i class="fas fa-times" aria-hidden="true"></i></button>
+  <div class="search-overlay__input-wrap">
+    <i class="fas fa-search search-overlay__icon" aria-hidden="true"></i>
+    <input type="text" class="search-overlay__input" placeholder="Where do you want to go?" autofocus id="searchInput">
+  </div>
+  <div class="search-overlay__suggestions">
+    <div class="search-overlay__label">Popular Destinations</div>
+    <div class="search-overlay__pills">
+      <a href="/destinations/bali" class="search-pill">🏝 Bali</a>
+      <a href="/destinations/dubai" class="search-pill">🌆 Dubai</a>
+      <a href="/destinations/maldives" class="search-pill">💎 Maldives</a>
+      <a href="/destinations/kashmir" class="search-pill">❄ Kashmir</a>
+      <a href="/destinations/vietnam" class="search-pill">🌿 Vietnam</a>
+      <a href="/destinations/mauritius" class="search-pill">🌺 Spiti</a>
+      <a href="/destinations/ladakh" class="search-pill">🏔 Ladakh</a>
+      <a href="/destinations/goa" class="search-pill">🏖 Goa</a>
+      <a href="/destinations/europe" class="search-pill">🇪🇺 Europe</a>
+      <a href="/destinations/japan" class="search-pill">🗼 Japan</a>
+    </div>
+  </div>
+</div>
 
 <main>
 
@@ -179,7 +223,7 @@
       </div>
       <div class="pkg-gallery__thumb" style="position:relative">
         <img src="https://images.unsplash.com/photo-1540202404-1b927e27fa8b?w=400&q=80" alt="Spiti Underwater" loading="lazy">
-        <div class="pkg-gallery__more"><i class="fas fa-camera" style="margin-right:6px"></i> 10+ Photos</div>
+        <div class="pkg-gallery__more"><i class=\"fas fa-camera\" aria-hidden=\"true\" style="margin-right:6px"></i> 10+ Photos</div>
       </div>
     </div>
 
@@ -187,16 +231,16 @@
     <div class="pkg-header">
       <h1 class="pkg-header__title">The Complete Spiti Experience</h1>
       <div class="pkg-header__meta">
-        <span class="pkg-meta-item pkg-meta-rating"><i class="fas fa-star"></i> 4.8 (45 reviews)</span>
-        <span class="pkg-meta-item"><i class="fas fa-map-marker-alt"></i> Spiti</span>
-        <span class="pkg-meta-item"><i class="fas fa-clock"></i> 9 Nights / 10 Days</span>
-        <span class="pkg-meta-item"><i class="fas fa-users"></i> Family / Couple / Group</span>
+        <span class="pkg-meta-item pkg-meta-rating"><i class=\"fas fa-star\" aria-hidden=\"true\"></i> 4.8 (45 reviews)</span>
+        <span class="pkg-meta-item"><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i> Spiti</span>
+        <span class="pkg-meta-item"><i class=\"fas fa-clock\" aria-hidden=\"true\"></i> 9 Nights / 10 Days</span>
+        <span class="pkg-meta-item"><i class=\"fas fa-users\" aria-hidden=\"true\"></i> Family / Couple / Group</span>
       </div>
       <div class="pkg-header__actions">
-        <button class="btn btn--outline btn--sm"><i class="fas fa-share-alt"></i> Share</button>
-        <button class="btn btn--outline btn--sm" onclick="window.print()"><i class="fas fa-download"></i> Download PDF</button>
-        <button class="btn btn--outline btn--sm"><i class="far fa-heart"></i> Save</button>
-        <a href="https://wa.me/919311957339?text=Hi!%20I'm%20interested%20in%20The%20Complete%20Spiti%20Experience" target="_blank" class="btn btn--whatsapp btn--sm"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <button class="btn btn--outline btn--sm"><i class=\"fas fa-share-alt\" aria-hidden=\"true\"></i> Share</button>
+        <button class="btn btn--outline btn--sm" onclick="window.print()"><i class=\"fas fa-download\" aria-hidden=\"true\"></i> Download PDF</button>
+        <button class="btn btn--outline btn--sm"><i class=\"far fa-heart\" aria-hidden=\"true\"></i> Save</button>
+        <a href="https://wa.me/919311957339?text=Hi!%20I'm%20interested%20in%20The%20Complete%20Spiti%20Experience" target="_blank" class="btn btn--whatsapp btn--sm"><i class=\"fab fa-whatsapp\" aria-hidden=\"true\"></i> WhatsApp</a>
       </div>
     </div>
   </div>
@@ -230,14 +274,14 @@
 
         <!-- ── OVERVIEW ── -->
         <div class="pkg-section" id="overview">
-          <h2 class="pkg-section__title"><i class="fas fa-info-circle"></i> Overview</h2>
+          <h2 class="pkg-section__title"><i class=\"fas fa-info-circle\" aria-hidden=\"true\"></i> Overview</h2>
 
           <div class="pkg-highlights">
-            <span class="pkg-highlight"><i class="fas fa-hotel"></i> Hotel Stay</span>
-            <span class="pkg-highlight"><i class="fas fa-car"></i> Private AC Transfers</span>
-            <span class="pkg-highlight"><i class="fas fa-utensils"></i> Daily Breakfast</span>
-            <span class="pkg-highlight"><i class="fas fa-map-signs"></i> Sightseeing</span>
-            <span class="pkg-highlight"><i class="fas fa-parking"></i> All Toll & Parking</span>
+            <span class="pkg-highlight"><i class=\"fas fa-hotel\" aria-hidden=\"true\"></i> Hotel Stay</span>
+            <span class="pkg-highlight"><i class=\"fas fa-car\" aria-hidden=\"true\"></i> Private AC Transfers</span>
+            <span class="pkg-highlight"><i class=\"fas fa-utensils\" aria-hidden=\"true\"></i> Daily Breakfast</span>
+            <span class="pkg-highlight"><i class=\"fas fa-map-signs\" aria-hidden=\"true\"></i> Sightseeing</span>
+            <span class="pkg-highlight"><i class=\"fas fa-parking\" aria-hidden=\"true\"></i> All Toll & Parking</span>
           </div>
 
           <p>Some islands can be seen in a few days, Spiti deserves to be felt over many. Over these ten days, you move through every mood the island has to offer: vibrant northern beaches, dramatic southern cliffs, misty nature reserves, colonial-era city streets, and quiet stretches of untouched coastline, each adding another layer to the story.</p>
@@ -256,19 +300,19 @@
 
           <div class="pkg-quick-info">
             <div class="pkg-quick-info__item">
-              <i class="fas fa-calendar-alt"></i>
+              <i class=\"fas fa-calendar-alt\" aria-hidden=\"true\"></i>
               <div><div class="pkg-quick-info__label">Best Time</div><div class="pkg-quick-info__value">October – March</div></div>
             </div>
             <div class="pkg-quick-info__item">
-              <i class="fas fa-signal"></i>
+              <i class=\"fas fa-signal\" aria-hidden=\"true\"></i>
               <div><div class="pkg-quick-info__label">Difficulty</div><div class="pkg-quick-info__value">Easy / Leisure</div></div>
             </div>
             <div class="pkg-quick-info__item">
-              <i class="fas fa-users"></i>
+              <i class=\"fas fa-users\" aria-hidden=\"true\"></i>
               <div><div class="pkg-quick-info__label">Group Size</div><div class="pkg-quick-info__value">2 – 15 Persons</div></div>
             </div>
             <div class="pkg-quick-info__item">
-              <i class="fas fa-language"></i>
+              <i class=\"fas fa-language\" aria-hidden=\"true\"></i>
               <div><div class="pkg-quick-info__label">Languages</div><div class="pkg-quick-info__value">English, Hindi</div></div>
             </div>
           </div>
@@ -277,7 +321,7 @@
 
         <!-- ── ITINERARY ── -->
         <div class="pkg-section" id="itinerary">
-          <h2 class="pkg-section__title"><i class="fas fa-route"></i> Day-by-Day Itinerary</h2>
+          <h2 class="pkg-section__title"><i class=\"fas fa-route\" aria-hidden=\"true\"></i> Day-by-Day Itinerary</h2>
 
           <div class="itinerary-timeline" id="itineraryTimeline">
 
@@ -412,31 +456,31 @@
 
         <!-- ── INCLUSIONS / EXCLUSIONS ── -->
         <div class="pkg-section" id="inclusions">
-          <h2 class="pkg-section__title"><i class="fas fa-list-check"></i> Inclusions & Exclusions</h2>
+          <h2 class="pkg-section__title"><i class=\"fas fa-list-check\" aria-hidden=\"true\"></i> Inclusions & Exclusions</h2>
           <div class="pkg-inclusions">
             <div class="inclusion-list inclusion-list--included">
-              <h4><i class="fas fa-check-circle"></i> What's Included</h4>
+              <h4><i class=\"fas fa-check-circle\" aria-hidden=\"true\"></i> What's Included</h4>
               <ul>
-                <li><i class="fas fa-check"></i> Accommodation in pre-booked hotels (9 nights)</li>
-                <li><i class="fas fa-check"></i> Daily breakfast at the hotel</li>
-                <li><i class="fas fa-check"></i> Sightseeing as per itinerary</li>
-                <li><i class="fas fa-check"></i> Private AC vehicle for all transfers</li>
-                <li><i class="fas fa-check"></i> All toll, parking and driver charges</li>
-                <li><i class="fas fa-check"></i> Airport pick-up and drop-off</li>
-                <li><i class="fas fa-check"></i> Catamaran cruise with lunch</li>
-                <li><i class="fas fa-check"></i> All government taxes</li>
+                <li><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Accommodation in pre-booked hotels (9 nights)</li>
+                <li><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Daily breakfast at the hotel</li>
+                <li><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Sightseeing as per itinerary</li>
+                <li><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Private AC vehicle for all transfers</li>
+                <li><i class=\"fas fa-check\" aria-hidden=\"true\"></i> All toll, parking and driver charges</li>
+                <li><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Airport pick-up and drop-off</li>
+                <li><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Catamaran cruise with lunch</li>
+                <li><i class=\"fas fa-check\" aria-hidden=\"true\"></i> All government taxes</li>
               </ul>
             </div>
             <div class="inclusion-list inclusion-list--excluded">
-              <h4><i class="fas fa-times-circle"></i> What's Not Included</h4>
+              <h4><i class=\"fas fa-times-circle\" aria-hidden=\"true\"></i> What's Not Included</h4>
               <ul>
-                <li><i class="fas fa-times"></i> Airfare / Train fare</li>
-                <li><i class="fas fa-times"></i> Lunch and Dinner (except cruise day)</li>
-                <li><i class="fas fa-times"></i> Personal expenses (laundry, tips, etc.)</li>
-                <li><i class="fas fa-times"></i> Entrance fees to monuments</li>
-                <li><i class="fas fa-times"></i> Travel insurance</li>
-                <li><i class="fas fa-times"></i> GST (5%)</li>
-                <li><i class="fas fa-times"></i> Any activity not mentioned in itinerary</li>
+                <li><i class=\"fas fa-times\" aria-hidden=\"true\"></i> Airfare / Train fare</li>
+                <li><i class=\"fas fa-times\" aria-hidden=\"true\"></i> Lunch and Dinner (except cruise day)</li>
+                <li><i class=\"fas fa-times\" aria-hidden=\"true\"></i> Personal expenses (laundry, tips, etc.)</li>
+                <li><i class=\"fas fa-times\" aria-hidden=\"true\"></i> Entrance fees to monuments</li>
+                <li><i class=\"fas fa-times\" aria-hidden=\"true\"></i> Travel insurance</li>
+                <li><i class=\"fas fa-times\" aria-hidden=\"true\"></i> GST (5%)</li>
+                <li><i class=\"fas fa-times\" aria-hidden=\"true\"></i> Any activity not mentioned in itinerary</li>
               </ul>
             </div>
           </div>
@@ -445,7 +489,7 @@
 
         <!-- ── HOTELS ── -->
         <div class="pkg-section" id="hotels">
-          <h2 class="pkg-section__title"><i class="fas fa-hotel"></i> Accommodation</h2>
+          <h2 class="pkg-section__title"><i class=\"fas fa-hotel\" aria-hidden=\"true\"></i> Accommodation</h2>
 
           <div class="hotel-card">
             <div class="hotel-card__image">
@@ -454,13 +498,13 @@
             <div class="hotel-card__info">
               <div class="hotel-card__name">Grand Baie Beach Resort</div>
               <div class="hotel-card__stars">⭐⭐⭐⭐ · Beachfront</div>
-              <div class="hotel-card__location"><i class="fas fa-map-marker-alt"></i> Grand Baie, North Spiti</div>
+              <div class="hotel-card__location"><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i> Grand Baie, North Spiti</div>
               <div class="hotel-card__amenities">
-                <span class="hotel-amenity"><i class="fas fa-check"></i> Pool</span>
-                <span class="hotel-amenity"><i class="fas fa-check"></i> WiFi</span>
-                <span class="hotel-amenity"><i class="fas fa-check"></i> Restaurant</span>
-                <span class="hotel-amenity"><i class="fas fa-check"></i> Beach Access</span>
-                <span class="hotel-amenity"><i class="fas fa-check"></i> Room Service</span>
+                <span class="hotel-amenity"><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Pool</span>
+                <span class="hotel-amenity"><i class=\"fas fa-check\" aria-hidden=\"true\"></i> WiFi</span>
+                <span class="hotel-amenity"><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Restaurant</span>
+                <span class="hotel-amenity"><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Beach Access</span>
+                <span class="hotel-amenity"><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Room Service</span>
               </div>
               <div class="hotel-card__nights">📅 Nights 1 – 4</div>
             </div>
@@ -473,13 +517,13 @@
             <div class="hotel-card__info">
               <div class="hotel-card__name">Le Morne Luxury Resort & Spa</div>
               <div class="hotel-card__stars">⭐⭐⭐⭐⭐ · Luxury Beachfront</div>
-              <div class="hotel-card__location"><i class="fas fa-map-marker-alt"></i> Le Morne, South Spiti</div>
+              <div class="hotel-card__location"><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i> Le Morne, South Spiti</div>
               <div class="hotel-card__amenities">
-                <span class="hotel-amenity"><i class="fas fa-check"></i> Spa</span>
-                <span class="hotel-amenity"><i class="fas fa-check"></i> Infinity Pool</span>
-                <span class="hotel-amenity"><i class="fas fa-check"></i> Fine Dining</span>
-                <span class="hotel-amenity"><i class="fas fa-check"></i> Private Beach</span>
-                <span class="hotel-amenity"><i class="fas fa-check"></i> Gym</span>
+                <span class="hotel-amenity"><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Spa</span>
+                <span class="hotel-amenity"><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Infinity Pool</span>
+                <span class="hotel-amenity"><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Fine Dining</span>
+                <span class="hotel-amenity"><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Private Beach</span>
+                <span class="hotel-amenity"><i class=\"fas fa-check\" aria-hidden=\"true\"></i> Gym</span>
               </div>
               <div class="hotel-card__nights">📅 Nights 5 – 9</div>
             </div>
@@ -491,7 +535,7 @@
 
         <!-- ── PRICING ── -->
         <div class="pkg-section" id="pricing">
-          <h2 class="pkg-section__title"><i class="fas fa-tags"></i> Pricing</h2>
+          <h2 class="pkg-section__title"><i class=\"fas fa-tags\" aria-hidden=\"true\"></i> Pricing</h2>
 
           <table class="pricing-table">
             <thead>
@@ -525,17 +569,17 @@
           </table>
 
           <div class="pricing-notes">
-            <div class="pricing-note"><i class="fas fa-info-circle"></i> Prices are per person on twin-sharing basis</div>
-            <div class="pricing-note"><i class="fas fa-info-circle"></i> Seasonal surcharges may apply during Dec–Jan peak season</div>
-            <div class="pricing-note"><i class="fas fa-credit-card"></i> EMI available from ₹8,302/month (no cost EMI on select cards)</div>
-            <div class="pricing-note"><i class="fas fa-child"></i> Child below 5 years: Free (without extra bed). 5-11 years: 60% of adult price</div>
+            <div class="pricing-note"><i class=\"fas fa-info-circle\" aria-hidden=\"true\"></i> Prices are per person on twin-sharing basis</div>
+            <div class="pricing-note"><i class=\"fas fa-info-circle\" aria-hidden=\"true\"></i> Seasonal surcharges may apply during Dec–Jan peak season</div>
+            <div class="pricing-note"><i class=\"fas fa-credit-card\" aria-hidden=\"true\"></i> EMI available from ₹8,302/month (no cost EMI on select cards)</div>
+            <div class="pricing-note"><i class=\"fas fa-child\" aria-hidden=\"true\"></i> Child below 5 years: Free (without extra bed). 5-11 years: 60% of adult price</div>
           </div>
         </div>
 
 
         <!-- ── POLICY ── -->
         <div class="pkg-section" id="policy">
-          <h2 class="pkg-section__title"><i class="fas fa-shield-alt"></i> Cancellation & Refund Policy</h2>
+          <h2 class="pkg-section__title"><i class=\"fas fa-shield-alt\" aria-hidden=\"true\"></i> Cancellation & Refund Policy</h2>
           <table class="pricing-table">
             <thead><tr><th>Days Before Departure</th><th>Cancellation Charge</th></tr></thead>
             <tbody>
@@ -551,7 +595,7 @@
 
         <!-- ── REVIEWS ── -->
         <div class="pkg-section" id="reviews">
-          <h2 class="pkg-section__title"><i class="fas fa-star"></i> Reviews</h2>
+          <h2 class="pkg-section__title"><i class=\"fas fa-star\" aria-hidden=\"true\"></i> Reviews</h2>
 
           <div class="review-summary">
             <div class="review-summary__score">
@@ -599,38 +643,38 @@
 
         <!-- ── FAQ ── -->
         <div class="pkg-section" id="faq">
-          <h2 class="pkg-section__title"><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+          <h2 class="pkg-section__title"><i class=\"fas fa-question-circle\" aria-hidden=\"true\"></i> Frequently Asked Questions</h2>
           <div class="faq-list">
             <div class="accordion-item active">
-              <button class="accordion-header" onclick="toggleAccordion(this)">Is visa required for Spiti? <i class="fas fa-chevron-down accordion-icon"></i></button>
+              <button class="accordion-header" onclick="toggleAccordion(this)">Is visa required for Spiti? <i class=\"fas fa-chevron-down accordion-icon\" aria-hidden=\"true\"></i></button>
               <div class="accordion-body"><div class="accordion-content">Indian citizens get visa-free entry to Spiti for up to 60 days. You need a valid passport (6 months validity), return flight tickets, hotel booking confirmation, and proof of sufficient funds.</div></div>
             </div>
             <div class="accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">What is the best time to visit Spiti? <i class="fas fa-chevron-down accordion-icon"></i></button>
+              <button class="accordion-header" onclick="toggleAccordion(this)">What is the best time to visit Spiti? <i class=\"fas fa-chevron-down accordion-icon\" aria-hidden=\"true\"></i></button>
               <div class="accordion-body"><div class="accordion-content">The best time to visit Spiti is from May to December when the weather is warm and dry. The peak tourist season is September to November. Avoid January to March due to cyclone season.</div></div>
             </div>
             <div class="accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">Can I customize this package? <i class="fas fa-chevron-down accordion-icon"></i></button>
+              <button class="accordion-header" onclick="toggleAccordion(this)">Can I customize this package? <i class=\"fas fa-chevron-down accordion-icon\" aria-hidden=\"true\"></i></button>
               <div class="accordion-body"><div class="accordion-content">Absolutely! All our packages are fully customizable. You can modify the duration, hotel category, activities, and add-ons. Contact us via WhatsApp or call to discuss your requirements.</div></div>
             </div>
             <div class="accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">Are flights included in the price? <i class="fas fa-chevron-down accordion-icon"></i></button>
+              <button class="accordion-header" onclick="toggleAccordion(this)">Are flights included in the price? <i class=\"fas fa-chevron-down accordion-icon\" aria-hidden=\"true\"></i></button>
               <div class="accordion-body"><div class="accordion-content">Flights are not included in the base price shown. We can arrange flights from any Indian city at the best available rates. The total package cost including flights will be shared during booking.</div></div>
             </div>
             <div class="accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">What's the cancellation policy? <i class="fas fa-chevron-down accordion-icon"></i></button>
+              <button class="accordion-header" onclick="toggleAccordion(this)">What's the cancellation policy? <i class=\"fas fa-chevron-down accordion-icon\" aria-hidden=\"true\"></i></button>
               <div class="accordion-body"><div class="accordion-content">Cancellation charges vary based on how far in advance you cancel: 30+ days = 25%, 15-29 days = 50%, 7-14 days = 75%, Less than 7 days = 100%. We recommend travel insurance for protection.</div></div>
             </div>
             <div class="accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">Is travel insurance included? <i class="fas fa-chevron-down accordion-icon"></i></button>
+              <button class="accordion-header" onclick="toggleAccordion(this)">Is travel insurance included? <i class=\"fas fa-chevron-down accordion-icon\" aria-hidden=\"true\"></i></button>
               <div class="accordion-body"><div class="accordion-content">Travel insurance is not included by default but is highly recommended. We can arrange comprehensive travel insurance starting from ₹500 per person. Ask our team for details.</div></div>
             </div>
             <div class="accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">Can I extend my stay? <i class="fas fa-chevron-down accordion-icon"></i></button>
+              <button class="accordion-header" onclick="toggleAccordion(this)">Can I extend my stay? <i class=\"fas fa-chevron-down accordion-icon\" aria-hidden=\"true\"></i></button>
               <div class="accordion-body"><div class="accordion-content">Yes, you can extend your stay in Spiti. Additional nights can be arranged at the same hotel or a different one. Extra charges will apply based on the hotel category and dates.</div></div>
             </div>
             <div class="accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">What's the group size? <i class="fas fa-chevron-down accordion-icon"></i></button>
+              <button class="accordion-header" onclick="toggleAccordion(this)">What's the group size? <i class=\"fas fa-chevron-down accordion-icon\" aria-hidden=\"true\"></i></button>
               <div class="accordion-body"><div class="accordion-content">This package is available for private groups of 2 to 15 persons. For larger groups (corporate or events), please contact us for customized rates and arrangements.</div></div>
             </div>
           </div>
@@ -681,11 +725,11 @@
           </form>
 
           <div class="booking-trust">
-            <div class="booking-trust-item"><i class="fas fa-check-circle"></i> No booking fees</div>
-            <div class="booking-trust-item"><i class="fas fa-check-circle"></i> Free cancellation (30+ days)</div>
-            <div class="booking-trust-item"><i class="fas fa-check-circle"></i> EMI available from ₹8,302/mo</div>
-            <div class="booking-trust-item"><i class="fas fa-check-circle"></i> 24/7 support</div>
-            <div class="booking-trust-item"><i class="fas fa-check-circle"></i> Best price guaranteed</div>
+            <div class="booking-trust-item"><i class=\"fas fa-check-circle\" aria-hidden=\"true\"></i> No booking fees</div>
+            <div class="booking-trust-item"><i class=\"fas fa-check-circle\" aria-hidden=\"true\"></i> Free cancellation (30+ days)</div>
+            <div class="booking-trust-item"><i class=\"fas fa-check-circle\" aria-hidden=\"true\"></i> EMI available from ₹8,302/mo</div>
+            <div class="booking-trust-item"><i class=\"fas fa-check-circle\" aria-hidden=\"true\"></i> 24/7 support</div>
+            <div class="booking-trust-item"><i class=\"fas fa-check-circle\" aria-hidden=\"true\"></i> Best price guaranteed</div>
           </div>
         </div>
       </aside>
@@ -713,7 +757,7 @@
         </div>
         <div class="card__body">
           <h3 class="card__title">A Slice of Paradise: Spiti</h3>
-          <div class="card__chips"><span class="chip"><i class="fas fa-clock"></i> 5D4N</span><span class="chip"><i class="fas fa-hotel"></i> Hotel</span></div>
+          <div class="card__chips"><span class="chip"><i class=\"fas fa-clock\" aria-hidden=\"true\"></i> 5D4N</span><span class="chip"><i class=\"fas fa-hotel\" aria-hidden=\"true\"></i> Hotel</span></div>
           <div class="card__footer">
             <div class="card__price"><span class="card__price-current">₹45,750</span><span class="card__price-label">per person</span></div>
             <span class="btn btn--sm btn--primary">View</span>
@@ -728,7 +772,7 @@
         </div>
         <div class="card__body">
           <h3 class="card__title">Experience the Tropical Bliss at Spiti</h3>
-          <div class="card__chips"><span class="chip"><i class="fas fa-clock"></i> 6D5N</span><span class="chip"><i class="fas fa-hotel"></i> Hotel</span></div>
+          <div class="card__chips"><span class="chip"><i class=\"fas fa-clock\" aria-hidden=\"true\"></i> 6D5N</span><span class="chip"><i class=\"fas fa-hotel\" aria-hidden=\"true\"></i> Hotel</span></div>
           <div class="card__footer">
             <div class="card__price"><span class="card__price-current">₹54,225</span><span class="card__price-label">per person</span></div>
             <span class="btn btn--sm btn--primary">View</span>
@@ -743,7 +787,7 @@
         </div>
         <div class="card__body">
           <h3 class="card__title">Coral Paradise: Maldives</h3>
-          <div class="card__chips"><span class="chip"><i class="fas fa-clock"></i> 5D4N</span><span class="chip"><i class="fas fa-plane"></i> Flights</span><span class="chip"><i class="fas fa-hotel"></i> Hotel</span></div>
+          <div class="card__chips"><span class="chip"><i class=\"fas fa-clock\" aria-hidden=\"true\"></i> 5D4N</span><span class="chip"><i class=\"fas fa-plane\" aria-hidden=\"true\"></i> Flights</span><span class="chip"><i class=\"fas fa-hotel\" aria-hidden=\"true\"></i> Hotel</span></div>
           <div class="card__footer">
             <div class="card__price"><span class="card__price-current">₹72,250</span><span class="card__price-label">per person</span></div>
             <span class="btn btn--sm btn--primary">View</span>
@@ -764,7 +808,7 @@
     <span>per person</span>
   </div>
   <div class="mobile-booking-bar__actions">
-    <a href="tel:+919311957339" class="btn btn--outline btn--sm"><i class="fas fa-phone-alt"></i></a>
+    <a href="tel:+919311957339" class="btn btn--outline btn--sm"><i class=\"fas fa-phone-alt\" aria-hidden=\"true\"></i></a>
     <button class="btn btn--primary btn--sm" onclick="openCallbackModal('65','Spiti')">Book Now</button>
   </div>
 </div>
@@ -778,15 +822,15 @@
         <h4 style="font-family:var(--font-display);font-size:var(--text-xl);margin-bottom:var(--space-md)">Kan<span style="color:var(--color-primary)">Holidays</span></h4>
         <p>Global Community of Travelers. Creating unforgettable memories one trip at a time.</p>
         <div class="footer-social">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class=\"fab fa-instagram\" aria-hidden=\"true\"></i></a>
+          <a href="#"><i class=\"fab fa-facebook-f\" aria-hidden=\"true\"></i></a>
+          <a href="#"><i class=\"fab fa-youtube\" aria-hidden=\"true\"></i></a>
+          <a href="#"><i class=\"fab fa-linkedin-in\" aria-hidden=\"true\"></i></a>
         </div>
       </div>
       <div class="footer-col"><h4>Quick Links</h4><ul class="footer-links"><li><a href="/about-us">About Us</a></li><li><a href="/blogs">Blog</a></li><li><a href="/upcoming-trips">Upcoming Trips</a></li><li><a href="/visa">Visa Services</a></li><li><a href="/pay-us">Pay Us</a></li></ul></div>
       <div class="footer-col"><h4>Top Destinations</h4><ul class="footer-links"><li><a href="/destinations/bali">Bali</a></li><li><a href="/destinations/dubai">Dubai</a></li><li><a href="/destinations/maldives">Maldives</a></li><li><a href="/destinations/kashmir">Kashmir</a></li><li><a href="/destinations/mauritius">Spiti</a></li></ul></div>
-      <div class="footer-col"><h4>Contact</h4><div class="footer-contact-item"><i class="fas fa-phone-alt"></i><a href="tel:+919311957339" style="color:rgba(255,255,255,0.8)">+91-9311957339</a></div><div class="footer-contact-item"><i class="fab fa-whatsapp"></i><a href="https://wa.me/919311957339" style="color:rgba(255,255,255,0.8)">WhatsApp</a></div><div class="footer-contact-item"><i class="fas fa-envelope"></i>info@kanholidays.com</div></div>
+      <div class="footer-col"><h4>Contact</h4><div class="footer-contact-item"><i class=\"fas fa-phone-alt\" aria-hidden=\"true\"></i><a href="tel:+919311957339" style="color:rgba(255,255,255,0.8)">+91-9311957339</a></div><div class="footer-contact-item"><i class=\"fab fa-whatsapp\" aria-hidden=\"true\"></i><a href="https://wa.me/919311957339" style="color:rgba(255,255,255,0.8)">WhatsApp</a></div><div class="footer-contact-item"><i class=\"fas fa-envelope\" aria-hidden=\"true\"></i>info@kanholidays.com</div></div>
     </div>
     <div class="footer-bottom"><div>&copy; 2025 KanHolidays. All rights reserved.</div></div>
   </div>
@@ -795,20 +839,20 @@
 <!-- WhatsApp Widget -->
 <div class="whatsapp-widget no-print">
   <div class="whatsapp-tooltip">💬 Chat with us about this trip!</div>
-  <a href="https://wa.me/919311957339?text=Hi!%20I'm%20interested%20in%20The%20Complete%20Spiti%20Experience" target="_blank" class="whatsapp-btn"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://wa.me/919311957339?text=Hi!%20I'm%20interested%20in%20The%20Complete%20Spiti%20Experience" target="_blank" class="whatsapp-btn"><i class=\"fab fa-whatsapp\" aria-hidden=\"true\"></i></a>
 </div>
 
 <!-- Callback Modal -->
 <div class="modal-overlay" id="callbackModal">
   <div class="modal">
-    <div class="modal-header"><h3>Get a Free Callback</h3><button class="modal-close" onclick="closeCallbackModal()"><i class="fas fa-times"></i></button></div>
+    <div class="modal-header"><h3>Get a Free Callback</h3><button class="modal-close" onclick="closeCallbackModal()"><i class=\"fas fa-times\" aria-hidden=\"true\"></i></button></div>
     <div class="modal-body">
       <form onsubmit="return false;">
         <div class="form-group"><label class="form-label">Full Name</label><input type="text" class="form-input" placeholder="Your name" required></div>
         <div class="form-group"><label class="form-label">Phone Number</label><input type="tel" class="form-input" placeholder="+91 XXXXX XXXXX" required></div>
         <div class="form-group"><label class="form-label">Preferred Travel Date</label><input type="date" class="form-input"></div>
         <button type="submit" class="btn btn--primary btn--block btn--lg">Request Callback</button>
-        <div class="modal-promise"><i class="fas fa-clock"></i> We'll call you within 30 minutes!</div>
+        <div class="modal-promise"><i class=\"fas fa-clock\" aria-hidden=\"true\"></i> We'll call you within 30 minutes!</div>
       </form>
     </div>
   </div>

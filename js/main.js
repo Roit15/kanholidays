@@ -20,7 +20,7 @@ const PACKAGES = [
   { id:12, name:"Singapore Express", dest:"Singapore", category:"international", tags:[], duration:"4D3N", price:25000, originalPrice:32000, image:"https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=500&q=80", rating:4.7, reviews:110, highlights:["Marina Bay","Sentosa","Gardens"], flights:false, hotel:true },
 
   // India
-  { id:20, name:"Paradise Explorer", dest:"Kashmir", category:"india", tags:["adventure"], duration:"5D4N", price:16134, originalPrice:22000, image:"https://images.unsplash.com/photo-1564507592263-b7a4312f6a77?w=500&q=80", rating:4.9, reviews:210, highlights:["Dal Lake","Gulmarg","Pahalgam"], flights:false, hotel:true },
+  { id:20, name:"Paradise Explorer", dest:"Kashmir", category:"india", tags:["adventure"], duration:"5D4N", price:16134, originalPrice:22000, image:"https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=500&q=80", rating:4.9, reviews:210, highlights:["Dal Lake","Gulmarg","Pahalgam"], flights:false, hotel:true },
   { id:21, name:"Royal Rajasthan", dest:"Rajasthan", category:"india", tags:[], duration:"6D5N", price:12999, originalPrice:18000, image:"https://images.unsplash.com/photo-1477587458883-47145ed94245?w=500&q=80", rating:4.7, reviews:95, highlights:["Jaipur","Udaipur","Jodhpur"], flights:false, hotel:true },
   { id:22, name:"Leh Ladakh Ride", dest:"Ladakh", category:"india", tags:["adventure"], duration:"7D6N", price:11394, originalPrice:16000, image:"https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=500&q=80", rating:4.8, reviews:175, highlights:["Pangong","Nubra","Khardung La"], flights:false, hotel:true },
   { id:23, name:"Scotland of East", dest:"Meghalaya", category:"india", tags:["adventure"], duration:"5D4N", price:16794, originalPrice:22000, image:"https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=500&q=80", rating:4.6, reviews:55, highlights:["Living Root Bridge","Dawki","Cherrapunji"], flights:false, hotel:true },
@@ -183,6 +183,29 @@ function initSearch() {
       if (searchOverlay) {
         searchOverlay.classList.add('active');
         setTimeout(() => searchInput?.focus(), 300);
+      }
+    });
+  }
+
+  // Execute Search Logic
+  function executeSearch(query) {
+    if (!query) return;
+    const q = query.toLowerCase().trim();
+    // Try to find a matching destination
+    const match = PACKAGES.find(p => p.dest.toLowerCase().includes(q) || p.name.toLowerCase().includes(q));
+    
+    if (match) {
+      const slug = match.dest.toLowerCase().replace(/\s+/g, '-');
+      window.location.href = `/destinations/${slug}`;
+    } else {
+      window.location.href = `/destinations`;
+    }
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        executeSearch(searchInput.value);
       }
     });
   }

@@ -19,8 +19,9 @@
 :root {
   /* Colors */
   --color-primary: #E8720C;
+  --color-primary-text: #C25B07;
   --color-primary-light: #F4983D;
-  --color-primary-dark: #C25F0A;
+  --color-primary-dark: #C25B07;
   --color-secondary: #1B2D45;
   --color-secondary-light: #2A4060;
   --color-accent: #F0C040;
@@ -171,13 +172,19 @@ p {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-primary-text);
   text-decoration: none;
   transition: color var(--duration-fast) var(--ease-out);
 }
 
 a:hover {
   color: var(--color-primary-dark);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 4px;
+  border-radius: 2px;
 }
 
 img {
@@ -352,6 +359,10 @@ ul, ol {
   white-space: nowrap;
   position: relative;
   overflow: hidden;
+}
+
+.btn:active {
+  transform: scale(0.97);
 }
 
 .btn::after {

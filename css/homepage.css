@@ -45,9 +45,9 @@
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(13,27,42,0.3) 0%,
-    rgba(13,27,42,0.5) 50%,
-    rgba(13,27,42,0.7) 100%
+    rgba(27,45,69,0.2) 0%,
+    rgba(27,45,69,0.5) 60%,
+    rgba(27,45,69,0.8) 100%
   );
 }
 
@@ -355,12 +355,13 @@
 .bento-item__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(0deg, rgba(13,27,42,0.7) 0%, transparent 60%);
-  transition: background var(--duration-normal);
+  background: linear-gradient(0deg, rgba(27,45,69,0.8) 0%, transparent 70%);
+  transition: all var(--duration-normal) var(--ease-out);
 }
 
 .bento-item:hover .bento-item__overlay {
-  background: linear-gradient(0deg, rgba(13,27,42,0.8) 0%, rgba(232,114,12,0.1) 60%);
+  background: linear-gradient(0deg, rgba(27,45,69,0.95) 0%, rgba(194,91,7,0.3) 100%);
+  backdrop-filter: blur(2px);
 }
 
 .bento-item__content {
@@ -627,8 +628,8 @@
 }
 
 .testimonial-card:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
 }
 
 .testimonial-stars {
