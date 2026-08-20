@@ -158,6 +158,13 @@ h4 { font-size: var(--text-xl); }
 h5 { font-size: var(--text-lg); }
 h6 { font-size: var(--text-md); }
 
+@media (max-width: 768px) {
+  h1 { font-size: var(--text-3xl); }
+  h2 { font-size: var(--text-2xl); }
+  h3 { font-size: var(--text-xl); }
+  h4 { font-size: var(--text-lg); }
+}
+
 p {
   margin-bottom: var(--space-md);
   line-height: 1.8;
@@ -201,6 +208,12 @@ ul, ol {
 
 .section {
   padding: var(--space-section) 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: calc(var(--space-section) / 1.5) 0;
+  }
 }
 
 .section--dark {

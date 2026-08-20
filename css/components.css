@@ -828,7 +828,7 @@ body {
 /* ── MOBILE STICKY BOOKING BAR ── */
 .mobile-booking-bar {
   position: fixed;
-  bottom: var(--mobile-nav-height);
+  bottom: 0;
   left: 0;
   right: 0;
   background: var(--color-white);
