@@ -1,0 +1,72 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/honeymoon",
+      "destination": "/experiences"
+    },
+    {
+      "source": "/about",
+      "destination": "/about-us"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/destinations",
+      "destination": "/destinations.html"
+    },
+    {
+      "source": "/destinations/",
+      "destination": "/destinations.html"
+    },
+    {
+      "source": "/packages/(.*bali.*)",
+      "destination": "/destinations/bali.html"
+    },
+    {
+      "source": "/packages/(.*dubai.*)",
+      "destination": "/destinations/dubai.html"
+    },
+    {
+      "source": "/packages/(.*maldives.*)",
+      "destination": "/destinations/maldives.html"
+    },
+    {
+      "source": "/packages/(.*kashmir.*)",
+      "destination": "/destinations/kashmir.html"
+    },
+    {
+      "source": "/packages/(.*mauritius.*)",
+      "destination": "/destinations/mauritius.html"
+    },
+    {
+      "source": "/packages/(.*europe.*)",
+      "destination": "/destinations/europe.html"
+    },
+    {
+      "source": "/packages/(.*vietnam.*)",
+      "destination": "/destinations/vietnam.html"
+    },
+    {
+      "source": "/packages/(.*thailand.*)",
+      "destination": "/destinations/thailand.html"
+    },
+    {
+      "source": "/packages/(.*japan.*)",
+      "destination": "/destinations/japan.html"
+    },
+    {
+      "source": "/packages/(.*sri-lanka.*)",
+      "destination": "/destinations/sri-lanka.html"
+    },
+    {
+      "source": "/packages/(.*philippines.*)",
+      "destination": "/destinations/philippines.html"
+    },
+    {
+      "source": "/packages/(.*)",
+      "destination": "/destinations/mauritius.html"
+    }
+  ]
+}

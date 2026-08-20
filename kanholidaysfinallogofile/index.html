@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en" class="scroll-smooth"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Kan Holidays | Explore More, Worry Less&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/lucide@latest"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&amp;family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* BRAND COLORS EXTRACTED FROM LOGO */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--kan-green: #006A36; /* Deep Green from 'KAN' */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--kan-orange: #F39200; /* Orange from 'HOLIDAYS' &amp; Plane */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body { font-family: 'Montserrat', sans-serif; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1, h2, h3, .serif-font { font-family: 'Cormorant Garamond', serif; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Custom Utilities */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.text-kan-green { color: var(--kan-green); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.text-kan-orange { color: var(--kan-orange); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bg-kan-green { background-color: var(--kan-green); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bg-kan-orange { background-color: var(--kan-orange); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.border-kan-green { border-color: var(--kan-green); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-primary {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, var(--kan-orange) 0%, #ffae00 100%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-primary:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-2px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 20px -5px rgba(243, 146, 0, 0.4);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.glass-nav {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.90);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>backdrop-filter: blur(12px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: 1px solid rgba(0, 106, 54, 0.05);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Animations */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.fade-in-up { animation: fadeInUp 0.8s ease-out forwards; opacity: 0; transform: translateY(20px); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.delay-100 { animation-delay: 0.1s; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.delay-200 { animation-delay: 0.2s; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.delay-300 { animation-delay: 0.3s; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes fadeInUp {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>to { opacity: 1; transform: translateY(0); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.luxury-card { transition: transform 0.4s ease, box-shadow 0.4s ease; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.luxury-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px -5px rgba(0, 68, 34, 0.15); }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.img-zoom-container { overflow: hidden; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.img-zoom-container img { transition: transform 0.7s ease; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.luxury-card:hover .img-zoom-container img { transform: scale(1.1); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="bg-slate-50 text-gray-800 antialiased selection:bg-[#F39200] selection:text-white"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav class="fixed w-full z-50 glass-nav transition-all duration-300" id="navbar"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#" class="flex items-center gap-2 group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;svg width="180" height="50" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;text x="0" y="35" font-family="Montserrat" font-weight="900" font-size="40" fill="#006A36"&gt;KAN&lt;/text&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;path d="M50 35 Q 90 45, 120 20 L 140 25 L 110 40 Q 80 55, 50 35" fill="#F39200" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;text x="0" y="55" font-family="Montserrat" font-weight="700" font-size="16" fill="#F39200" letter-spacing="2"&gt;HOLIDAYS&lt;/text&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide text-[#006A36]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#destinations" class="hover:text-[#F39200] transition relative group py-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Destinations</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#F39200] transition-all group-hover:w-full"&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#packages" class="hover:text-[#F39200] transition relative group py-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Packages</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#F39200] transition-all group-hover:w-full"&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#about" class="hover:text-[#F39200] transition relative group py-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>About</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="absolute bottom-0 left-0 w-0 h-0.5 bg-[#F39200] transition-all group-hover:w-full"&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="https://wa.me/918569977777?text=Hello Kan Holidays, I wish to plan a luxury trip."<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                   </span>class="btn-primary px-6 py-2.5 rounded-full font-bold flex items-center gap-2 shadow-lg hover:shadow-xl transform transition"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i data-lucide="message-circle" class="w-4 h-4"&gt;&lt;/i&gt; Plan My Trip</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="md:hidden text-[#006A36]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;i data-lucide="menu" class="w-8 h-8"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="relative h-screen flex items-center justify-center overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="absolute inset-0 z-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&amp;fit=crop&amp;q=80&amp;w=2000" class="w-full h-full object-cover brightness-[0.70]" alt="Luxury Travel"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="absolute inset-0 bg-gradient-to-t from-[#002211]/80 via-transparent to-[#002211]/30"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="relative z-10 px-6 text-center text-white max-w-4xl mx-auto mt-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="fade-in-up text-[#F39200] font-bold tracking-[0.2em] uppercase mb-4 text-xs md:text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>International Luxury Travel Experts</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="fade-in-up delay-100 text-5xl md:text-7xl lg:text-8xl font-medium leading-tight mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Explore More, &lt;br&gt; &lt;span class="italic font-serif text-[#F39200]"&gt;Worry Less.&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="fade-in-up delay-200 text-lg md:text-xl font-light mb-10 max-w-2xl mx-auto opacity-90 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Bespoke journeys to Bali, Dubai, Thailand, Vietnam &amp; Malaysia. We curate comfort, elegance, and trust.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="fade-in-up delay-300 flex flex-col sm:flex-row gap-4 justify-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="https://wa.me/918569977777?text=I'd like a quote for a luxury holiday." class="btn-primary px-10 py-4 rounded-full font-bold uppercase tracking-wider text-sm shadow-orange-500/50 shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Get a Quote</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#destinations" class="bg-white/10 backdrop-blur-md border border-white/30 text-white px-10 py-4 rounded-full font-bold uppercase tracking-wider text-sm hover:bg-white hover:text-[#006A36] transition"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Destinations</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="bg-white py-10 border-b border-gray-100 shadow-sm relative z-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-[#006A36]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-col items-center gap-2 hover:transform hover:scale-105 transition duration-300"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="w-12 h-12 rounded-full bg-green-50 flex items-center justify-center text-[#F39200]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i data-lucide="shield-check" class="w-6 h-6"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="uppercase tracking-widest text-[10px] font-bold mt-2"&gt;Verified Resorts&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-col items-center gap-2 hover:transform hover:scale-105 transition duration-300"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="w-12 h-12 rounded-full bg-green-50 flex items-center justify-center text-[#F39200]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i data-lucide="plane" class="w-6 h-6"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="uppercase tracking-widest text-[10px] font-bold mt-2"&gt;Seamless Travel&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-col items-center gap-2 hover:transform hover:scale-105 transition duration-300"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div class="w-12 h-12 rounded-full bg-green-50 flex items-center justify-center text-[#F39200]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i data-lucide="user-check" class="w-6 h-6"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="uppercase tracking-widest text-[10px] font-bold mt-2"&gt;Personal Manager&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-col items-center gap-2 hover:transform hover:scale-105 transition duration-300"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div class="w-12 h-12 rounded-full bg-green-50 flex items-center justify-center text-[#F39200]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i data-lucide="star" class="w-6 h-6"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="uppercase tracking-widest text-[10px] font-bold mt-2"&gt;5-Star Service&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="destinations" class="py-24 bg-slate-50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-col md:flex-row justify-between items-end mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-[#F39200] font-bold uppercase tracking-widest text-xs"&gt;Choose your view&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-4xl md:text-5xl text-[#006A36] mt-2 font-serif italic"&gt;Curated Destinations&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#" class="hidden md:flex items-center gap-2 text-[#006A36] font-bold hover:text-[#F39200] transition mt-4 md:mt-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>View All &lt;i data-lucide="arrow-right" class="w-4 h-4"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-1 md:grid-cols-4 gap-6 h-auto md:h-[600px]"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="md:col-span-2 md:row-span-2 relative rounded-[2rem] overflow-hidden luxury-card group cursor-pointer h-96 md:h-full shadow-xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="img-zoom-container h-full w-full"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&amp;fit=crop&amp;w=800" class="w-full h-full object-cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="absolute inset-0 bg-gradient-to-t from-[#004422] via-transparent to-transparent p-8 flex flex-col justify-end"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-3xl text-white font-serif italic mb-1"&gt;Bali&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-white/80 text-sm"&gt;Villas • Floating Breakfast • Culture&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="md:col-span-1 md:row-span-1 relative rounded-[2rem] overflow-hidden luxury-card group cursor-pointer h-64 md:h-full shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="img-zoom-container h-full w-full"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&amp;fit=crop&amp;w=600" class="w-full h-full object-cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="absolute inset-0 bg-gradient-to-t from-[#004422] via-transparent to-transparent p-6 flex flex-col justify-end"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl text-white font-serif italic"&gt;Dubai&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="md:col-span-1 md:row-span-1 relative rounded-[2rem] overflow-hidden luxury-card group cursor-pointer h-64 md:h-full shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="img-zoom-container h-full w-full"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://images.unsplash.com/photo-1528181304800-2f1408198f29?auto=format&amp;fit=crop&amp;w=600" class="w-full h-full object-cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="absolute inset-0 bg-gradient-to-t from-[#004422] via-transparent to-transparent p-6 flex flex-col justify-end"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl text-white font-serif italic"&gt;Thailand&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="md:col-span-1 md:row-span-1 relative rounded-[2rem] overflow-hidden luxury-card group cursor-pointer h-64 md:h-full shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="img-zoom-container h-full w-full"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&amp;fit=crop&amp;w=600" class="w-full h-full object-cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="absolute inset-0 bg-gradient-to-t from-[#004422] via-transparent to-transparent p-6 flex flex-col justify-end"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl text-white font-serif italic"&gt;Vietnam&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="md:col-span-1 md:row-span-1 relative rounded-[2rem] overflow-hidden luxury-card group cursor-pointer h-64 md:h-full shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="img-zoom-container h-full w-full"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://images.unsplash.com/photo-1596422846543-75c6fc18a594?auto=format&amp;fit=crop&amp;w=600" class="w-full h-full object-cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="absolute inset-0 bg-gradient-to-t from-[#004422] via-transparent to-transparent p-6 flex flex-col justify-end"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl text-white font-serif italic"&gt;Malaysia&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="packages" class="py-24 bg-white relative overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="absolute top-0 right-0 w-[500px] h-[500px] bg-orange-100 rounded-full blur-[100px] opacity-50 -mr-20 -mt-20"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-green-50 rounded-full blur-[100px] opacity-50 -ml-20 -mb-20"&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-6 relative z-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-4xl md:text-5xl text-[#006A36] text-center mb-16 font-serif"&gt;Signature Experiences&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-1 md:grid-cols-3 gap-8"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-[2rem] border border-gray-100 shadow-xl overflow-hidden luxury-card flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="h-64 overflow-hidden relative"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="absolute top-4 left-4 bg-[#F39200] text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest z-10 shadow-lg"&gt;Most Popular&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&amp;fit=crop&amp;w=600" class="w-full h-full object-cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-8 flex-1 flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl font-serif text-[#006A36] mb-2 italic"&gt;Bali Luxury Honeymoon&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-gray-500 text-sm mb-6 uppercase tracking-wider font-semibold"&gt;6 Nights • Private Pool Villa&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ul class="space-y-3 mb-8 flex-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center gap-3 text-sm text-gray-600"&gt;&lt;i data-lucide="check" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; Romantic Candlelight Dinner&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center gap-3 text-sm text-gray-600"&gt;&lt;i data-lucide="check" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; Couple Spa Therapy&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center gap-3 text-sm text-gray-600"&gt;&lt;i data-lucide="check" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; Private Transfers&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex items-end justify-between border-t pt-6 border-gray-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-xs text-gray-400 uppercase"&gt;Starting from&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-2xl font-bold text-[#006A36]"&gt;₹1,25,000&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="https://wa.me/918569977777?text=I am interested in the Bali Honeymoon package." class="w-12 h-12 rounded-full bg-white border border-[#006A36] text-[#006A36] flex items-center justify-center hover:bg-[#006A36] hover:text-white transition shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;i data-lucide="arrow-up-right" class="w-5 h-5"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-[#004422] text-white rounded-[2rem] shadow-2xl overflow-hidden luxury-card flex flex-col transform md:-translate-y-6 relative border-2 border-[#F39200]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="h-64 overflow-hidden relative"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;div class="absolute top-4 left-4 bg-white text-[#006A36] text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest z-10 shadow-lg"&gt;Premium&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://images.unsplash.com/photo-1578255321055-d9edeb197026?auto=format&amp;fit=crop&amp;w=600" class="w-full h-full object-cover opacity-90"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-8 flex-1 flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl font-serif text-[#F39200] mb-2 italic"&gt;Dubai Elite Experience&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-white/60 text-sm mb-6 uppercase tracking-wider font-semibold"&gt;5 Nights • Yacht &amp; Desert&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ul class="space-y-3 mb-8 flex-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center gap-3 text-sm text-gray-200"&gt;&lt;i data-lucide="star" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; 5★ City Hotel&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center gap-3 text-sm text-gray-200"&gt;&lt;i data-lucide="star" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; Luxury Yacht Cruise&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center gap-3 text-sm text-gray-200"&gt;&lt;i data-lucide="star" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; VIP Desert Safari&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex items-end justify-between border-t pt-6 border-white/10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-xs text-white/40 uppercase"&gt;Starting from&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-2xl font-bold text-white"&gt;₹1,10,000&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="https://wa.me/918569977777?text=I am interested in the Dubai Elite package." class="btn-primary px-6 py-3 rounded-full text-sm font-bold shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>Book Now</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-[2rem] border border-gray-100 shadow-xl overflow-hidden luxury-card flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="h-64 overflow-hidden relative"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&amp;fit=crop&amp;w=600" class="w-full h-full object-cover"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-8 flex-1 flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl font-serif text-[#006A36] mb-2 italic"&gt;Thailand Elite Escape&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-gray-500 text-sm mb-6 uppercase tracking-wider font-semibold"&gt;6 Nights • Phuket &amp; Krabi&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ul class="space-y-3 mb-8 flex-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center gap-3 text-sm text-gray-600"&gt;&lt;i data-lucide="check" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; 5★ Beachfront Resorts&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center gap-3 text-sm text-gray-600"&gt;&lt;i data-lucide="check" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; Speedboat Island Hopping&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center gap-3 text-sm text-gray-600"&gt;&lt;i data-lucide="check" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; Personal Concierge&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex items-end justify-between border-t pt-6 border-gray-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-xs text-gray-400 uppercase"&gt;Starting from&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-2xl font-bold text-[#006A36]"&gt;₹95,000&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="https://wa.me/918569977777?text=I am interested in the Thailand Elite package." class="w-12 h-12 rounded-full bg-white border border-[#006A36] text-[#006A36] flex items-center justify-center hover:bg-[#006A36] hover:text-white transition shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;i data-lucide="arrow-up-right" class="w-5 h-5"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer class="bg-[#002211] text-white pt-24 pb-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="col-span-1 md:col-span-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex items-center gap-2 mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-3xl font-bold tracking-widest text-white"&gt;KAN &lt;span class="text-[#F39200]"&gt;HOLIDAYS&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-white/70 leading-relaxed max-w-sm mb-8 font-light"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>"Explore More, Worry Less." &lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Specializing in premium, Indian-friendly luxury travel experiences across the globe.</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex gap-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#" class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:bg-[#F39200] hover:border-[#F39200] transition"&gt;&lt;i data-lucide="instagram" class="w-4 h-4"&gt;&lt;/i&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#" class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:bg-[#F39200] hover:border-[#F39200] transition"&gt;&lt;i data-lucide="facebook" class="w-4 h-4"&gt;&lt;/i&gt;&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h4 class="text-[#F39200] font-bold uppercase tracking-widest text-xs mb-8"&gt;Contact Us&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;ul class="space-y-4 text-white/80 text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li class="flex items-center gap-3"&gt;&lt;i data-lucide="phone" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; +91 85699 77777&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li class="flex items-center gap-3"&gt;&lt;i data-lucide="mail" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; info@kanholidays.com&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li class="flex items-center gap-3"&gt;&lt;i data-lucide="clock" class="w-4 h-4 text-[#F39200]"&gt;&lt;/i&gt; 10 AM – 8 PM (Daily)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h4 class="text-[#F39200] font-bold uppercase tracking-widest text-xs mb-8"&gt;Quick Links&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;ul class="space-y-3 text-white/80 text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#" class="hover:text-[#F39200] transition"&gt;About Us&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#" class="hover:text-[#F39200] transition"&gt;Destinations&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#" class="hover:text-[#F39200] transition"&gt;Honeymoon Packages&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#" class="hover:text-[#F39200] transition"&gt;Terms &amp; Conditions&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-6 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-xs text-white/40"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;copy; 2024 Kan Holidays. All rights reserved.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Designed for Luxury.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://wa.me/918569977777?text=Hi, I need help planning a holiday."<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">       </span>class="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition z-50 flex items-center gap-3 group border-4 border-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 font-bold whitespace-nowrap text-sm text-black"&gt;Chat with Experts&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"&gt;&lt;path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>lucide.createIcons();</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Navbar scroll effect</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const navbar = document.getElementById('navbar');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.addEventListener('scroll', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (window.scrollY &gt; 50) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>navbar.classList.add('py-2', 'shadow-md');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>navbar.classList.remove('py-3');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>navbar.classList.add('py-3');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>navbar.classList.remove('py-2', 'shadow-md');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>

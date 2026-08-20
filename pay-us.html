@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make a Payment | KanHolidays</title>
+  <meta name="description" content="Securely pay for your KanHolidays trip. Multiple payment options available including Credit/Debit Cards, Net Banking, and UPI.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="/css/design-system.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="icon" type="image/png" href="/kanholidaysfinallogofile/1.png">
+  
+  <style>
+    .payment-layout {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: var(--space-2xl);
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: var(--space-3xl) 0;
+    }
+    .payment-form {
+      background: var(--color-white);
+      border: 1px solid var(--color-border-light);
+      border-radius: var(--radius-xl);
+      padding: var(--space-2xl);
+    }
+    .payment-trust {
+      background: var(--color-bg);
+      border-radius: var(--radius-xl);
+      padding: var(--space-2xl);
+      height: fit-content;
+    }
+    .trust-badge {
+      display: flex;
+      align-items: center;
+      gap: var(--space-md);
+      margin-bottom: var(--space-md);
+    }
+    .trust-badge i {
+      font-size: 1.5rem;
+      color: var(--color-success);
+    }
+    @media (max-width: 768px) {
+      .payment-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body style="background:var(--color-bg)">
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="/" class="header-logo"><img src="/kanholidaysfinallogofile/1.png" alt="KanHolidays Logo"></a>
+    <div class="header-actions">
+      <a href="tel:+919311957339" class="header-phone"><i class="fas fa-phone-alt"></i><span>+91-9311957339</span></a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<div class="container">
+  <div class="payment-layout">
+    
+    <div class="payment-form">
+      <h1 style="font-family:var(--font-display);font-size:var(--text-3xl);margin-bottom:var(--space-md)">Make a Secure Payment</h1>
+      <p class="text-muted" style="margin-bottom:var(--space-2xl)">Please enter your booking details to proceed with the payment.</p>
+      
+      <form onsubmit="return false;">
+        <div class="form-group">
+          <label class="form-label">Booking Reference / Quote Number (Optional)</label>
+          <input type="text" class="form-input" placeholder="e.g. KAN-12345">
+        </div>
+        
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-md)">
+          <div class="form-group">
+            <label class="form-label">First Name *</label>
+            <input type="text" class="form-input" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Last Name *</label>
+            <input type="text" class="form-input" required>
+          </div>
+        </div>
+        
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-md)">
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input type="email" class="form-input" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone Number *</label>
+            <input type="tel" class="form-input" required>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label">Destination</label>
+          <input type="text" class="form-input" placeholder="e.g. Mauritius">
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label">Amount (INR) *</label>
+          <div style="position:relative">
+            <span style="position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--color-text-muted)">₹</span>
+            <input type="number" class="form-input" style="padding-left:35px" required>
+          </div>
+        </div>
+        
+        <div class="form-group" style="margin-bottom:var(--space-2xl)">
+          <label class="form-label">Payment Notes (Optional)</label>
+          <textarea class="form-input" rows="3" placeholder="Any details for our team..."></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn--primary btn--block btn--lg"><i class="fas fa-lock"></i> Proceed to Secure Gateway</button>
+      </form>
+    </div>
+
+    <aside class="payment-trust">
+      <h3 style="margin-bottom:var(--space-lg)">Payment Security</h3>
+      
+      <div class="trust-badge">
+        <i class="fas fa-shield-alt"></i>
+        <div>
+          <div style="font-weight:600">256-Bit Encryption</div>
+          <div style="font-size:var(--text-xs);color:var(--color-text-muted)">Your data is secured by industry standard SSL encryption.</div>
+        </div>
+      </div>
+      
+      <div class="trust-badge">
+        <i class="fas fa-check-circle"></i>
+        <div>
+          <div style="font-weight:600">PCI-DSS Compliant</div>
+          <div style="font-size:var(--text-xs);color:var(--color-text-muted)">We do not store your credit card information.</div>
+        </div>
+      </div>
+      
+      <div style="margin:var(--space-xl) 0;border-top:1px solid var(--color-border-light);padding-top:var(--space-xl)">
+        <h4 style="margin-bottom:var(--space-md)">Accepted Payment Methods</h4>
+        <div style="display:flex;gap:10px;font-size:2rem;color:var(--color-text-muted)">
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-amex"></i>
+        </div>
+        <p style="font-size:var(--text-xs);color:var(--color-text-muted);margin-top:10px">Also accepting UPI, Net Banking, and Wallet payments via Razorpay.</p>
+      </div>
+
+      <div style="font-size:var(--text-xs);color:var(--color-text-muted)">
+        Need help? Call us at <a href="tel:+919311957339" style="color:var(--color-primary)">+91-9311957339</a> or <a href="mailto:info@kanholidays.com" style="color:var(--color-primary)">email support</a>.
+      </div>
+    </aside>
+
+  </div>
+</div>
+
+</main>
+
+<!-- Footer (simplified for payment page) -->
+<footer class="site-footer">
+  <div class="container" style="text-align:center">
+    <div style="font-family:var(--font-display);font-size:var(--text-xl);margin-bottom:var(--space-sm)">Kan<span style="color:var(--color-primary)">Holidays</span></div>
+    <div style="font-size:var(--text-xs);color:rgba(255,255,255,0.5)">&copy; 2025 KanHolidays. All rights reserved. <br> Kan Holidays, Delhi, India</div>
+  </div>
+</footer>
+
+</body>
+</html>

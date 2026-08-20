@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Group Trips & Fixed Departures | KanHolidays</title>
+  <meta name="description" content="Join our upcoming fixed departure group trips. Travel with like-minded people, enjoy guaranteed departures, and get the best group rates with KanHolidays.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="/css/design-system.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/upcoming.css">
+  <link rel="icon" type="image/png" href="/kanholidaysfinallogofile/1.png">
+</head>
+<body>
+
+<!-- Header (same as homepage) -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="/" class="header-logo"><img src="/kanholidaysfinallogofile/1.png" alt="KanHolidays Logo"></a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <!-- International Trips -->
+        <li class="nav-item">
+          <a href="/destinations" class="nav-link">International Trips <i class="fas fa-chevron-down"></i></a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <div class="mega-col-title">Asia</div>
+              <ul>
+                <li><a href="/destinations/bali">🏝 Bali</a></li>
+                <li><a href="/destinations/vietnam">🌿 Vietnam</a></li>
+                <li><a href="/destinations/thailand">🏖 Thailand</a></li>
+                <li><a href="/destinations/japan">🗼 Japan</a></li>
+                <li><a href="/destinations/sri-lanka">🌊 Sri Lanka</a></li>
+                <li><a href="/destinations/philippines">🐚 Philippines</a></li>
+                <li><a href="/destinations/singapore">🦁 Singapore</a></li>
+                <li><a href="/destinations/malaysia">🌴 Malaysia</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <div class="mega-col-title">Middle East & Islands</div>
+              <ul>
+                <li><a href="/destinations/dubai">🌆 Dubai</a></li>
+                <li><a href="/destinations/maldives">💎 Maldives</a></li>
+                <li><a href="/destinations/mauritius">🌺 Mauritius</a></li>
+                <li><a href="/destinations/turkey">🕌 Turkey</a></li>
+                <li><a href="/destinations/georgia">⛰ Georgia</a></li>
+                <li><a href="/destinations/bhutan">🏔 Bhutan</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <div class="mega-col-title">Europe</div>
+              <ul>
+                <li><a href="/destinations/europe">🇪🇺 Europe Tours</a></li>
+                <li><a href="/destinations/greece">🇬🇷 Greece</a></li>
+                <li><a href="/destinations/switzerland">🇨🇭 Switzerland</a></li>
+                <li><a href="/destinations/russia">🇷🇺 Russia</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <!-- India Trips -->
+        <li class="nav-item">
+          <a href="/destinations" class="nav-link">India Trips <i class="fas fa-chevron-down"></i></a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <div class="mega-col-title">North India</div>
+              <ul>
+                <li><a href="/destinations/kashmir">❄ Kashmir</a></li>
+                <li><a href="/destinations/ladakh">🏔 Ladakh</a></li>
+                <li><a href="/destinations/himachal-pradesh">🌲 Himachal Pradesh</a></li>
+                <li><a href="/destinations/uttarakhand">🏞 Uttarakhand</a></li>
+                <li><a href="/destinations/spiti">🗻 Spiti Valley</a></li>
+                <li><a href="/destinations/rajasthan">🏰 Rajasthan</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <div class="mega-col-title">East & South</div>
+              <ul>
+                <li><a href="/destinations/meghalaya">🌧 Meghalaya</a></li>
+                <li><a href="/destinations/sikkim">🌸 Sikkim</a></li>
+                <li><a href="/destinations/andaman">🏝 Andaman</a></li>
+                <li><a href="/destinations/kerala">🛶 Kerala</a></li>
+                <li><a href="/destinations/goa">🏖 Goa</a></li>
+                <li><a href="/destinations/coorg">☕ Coorg</a></li>
+                <li><a href="/destinations/arunachal-pradesh">🌄 Arunachal Pradesh</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <div class="mega-col-title">Heritage</div>
+              <ul>
+                <li><a href="/destinations/varanasi">🕉 Varanasi</a></li>
+                <li><a href="/destinations/odisha">🛕 Odisha</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <!-- Honeymoon -->
+        <li class="nav-item">
+          <a href="/honeymoon" class="nav-link">Honeymoon <i class="fas fa-chevron-down"></i></a>
+          <div class="mega-menu" style="min-width:300px">
+            <div class="mega-col">
+              <div class="mega-col-title">Top Honeymoon Destinations</div>
+              <ul>
+                <li><a href="/destinations/maldives">💕 Maldives</a></li>
+                <li><a href="/destinations/bali">💕 Bali</a></li>
+                <li><a href="/destinations/mauritius">💕 Mauritius</a></li>
+                <li><a href="/destinations/europe">💕 Europe</a></li>
+                <li><a href="/destinations/kashmir">💕 Kashmir</a></li>
+                <li><a href="/destinations/vietnam">💕 Vietnam</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <!-- Experiences -->
+        <li class="nav-item">
+          <a href="/experiences" class="nav-link">Experiences <i class="fas fa-chevron-down"></i></a>
+          <div class="mega-menu" style="min-width:400px">
+            <div class="mega-col">
+              <ul>
+                <li><a href="/experiences#trekking">🏔 Trekking & Hiking</a></li>
+                <li><a href="/experiences#water-sports">🤿 Water Sports</a></li>
+                <li><a href="/experiences#heritage">🏰 Heritage & Culture</a></li>
+                <li><a href="/experiences#wellness">🧘 Wellness & Yoga</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <ul>
+                <li><a href="/experiences#adventure">🎢 Adventure</a></li>
+                <li><a href="/experiences#food">🍜 Food Tours</a></li>
+                <li><a href="/experiences#photography">📸 Photography Tours</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <!-- Static Links -->
+        <li class="nav-item"><a href="/upcoming-trips" class="nav-link">Upcoming Trips</a></li>
+        <li class="nav-item"><a href="/blogs" class="nav-link">Blog</a></li>
+        <li class="nav-item"><a href="/about-us" class="nav-link">About</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="tel:+919311957339" class="header-phone hide-mobile"><i class="fas fa-phone-alt"></i><span>+91-9311957339</span></a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+     ═══════════════════════════════════════════════ -->
+<section class="upcoming-hero">
+  <div class="container">
+    <h1 class="upcoming-hero__title">Upcoming <span>Group Trips</span></h1>
+    <p class="upcoming-hero__subtitle">Join like-minded travelers on our fixed-departure journeys. Guaranteed departures, carefully crafted itineraries, and memories that last a lifetime.</p>
+  </div>
+</section>
+
+<!-- ── FILTERS ── -->
+<div class="container">
+  <div class="upcoming-filters">
+    <div class="upcoming-filter-group">
+      <i class="far fa-calendar-alt"></i>
+      <select>
+        <option value="">Any Month</option>
+        <option value="sep-2025">September 2025</option>
+        <option value="oct-2025">October 2025 (Diwali)</option>
+        <option value="nov-2025">November 2025</option>
+        <option value="dec-2025">December 2025 (New Year)</option>
+      </select>
+    </div>
+    <div class="upcoming-filter-group">
+      <i class="fas fa-map-marker-alt"></i>
+      <select>
+        <option value="">Any Destination</option>
+        <option value="bali">Bali</option>
+        <option value="dubai">Dubai</option>
+        <option value="vietnam">Vietnam</option>
+        <option value="kashmir">Kashmir</option>
+      </select>
+    </div>
+    <div class="upcoming-filter-group">
+      <i class="fas fa-users"></i>
+      <select>
+        <option value="">Trip Style</option>
+        <option value="youth">Youth (18-35)</option>
+        <option value="family">Family Groups</option>
+        <option value="women">Women Only</option>
+      </select>
+    </div>
+    <button class="btn btn--primary" style="padding:0.8rem 2rem; border-radius:var(--radius-pill)">Search Trips</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     UPCOMING TRIPS LIST
+     ═══════════════════════════════════════════════ -->
+<section class="section" style="padding-top:0">
+  <div class="container" style="max-width:900px">
+
+    <!-- Trip 1 -->
+    <div class="trip-card">
+      <div class="trip-card__date-block">
+        <span class="trip-card__month">Oct</span>
+        <span class="trip-card__day">18</span>
+        <span class="trip-card__year">2025</span>
+      </div>
+      <div class="trip-card__image">
+        <img src="https://kanholidays.com/storage/packages/LdVTOWkNOvX0XjpFYCL7SCzVOI39EZDHdcbDUVdO.png" alt="Bali Group Trip">
+      </div>
+      <div class="trip-card__content">
+        <div class="trip-card__header">
+          <h3 class="trip-card__title">Bali Diwali Special Group Trip</h3>
+          <span class="trip-card__status trip-card__status--filling"><i class="fas fa-fire"></i> Fast Filling (4 spots left)</span>
+        </div>
+        <div class="trip-card__meta">
+          <span class="trip-card__meta-item"><i class="fas fa-clock"></i> 6 Days / 5 Nights</span>
+          <span class="trip-card__meta-item"><i class="fas fa-map-marker-alt"></i> Bali, Indonesia</span>
+          <span class="trip-card__meta-item"><i class="fas fa-users"></i> Youth Group (18-35)</span>
+        </div>
+        <div class="trip-card__highlights">
+          <span>Ubud Swing</span>
+          <span>Mount Batur Trek</span>
+          <span>Nusa Penida Day Trip</span>
+          <span>Beach Club Entry</span>
+        </div>
+        <div class="trip-card__footer">
+          <div>
+            <div class="trip-card__price-label">Per person starting from</div>
+            <div class="trip-card__price-val">₹42,500</div>
+          </div>
+          <a href="/package-detail.html" class="btn btn--primary btn--sm">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trip 2 -->
+    <div class="trip-card">
+      <div class="trip-card__date-block">
+        <span class="trip-card__month">Nov</span>
+        <span class="trip-card__day">05</span>
+        <span class="trip-card__year">2025</span>
+      </div>
+      <div class="trip-card__image">
+        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=500&q=80" alt="Dubai Shopping Festival">
+      </div>
+      <div class="trip-card__content">
+        <div class="trip-card__header">
+          <h3 class="trip-card__title">Dubai Luxury Shopping Festival</h3>
+          <span class="trip-card__status trip-card__status--guaranteed"><i class="fas fa-check-circle"></i> Guaranteed Departure</span>
+        </div>
+        <div class="trip-card__meta">
+          <span class="trip-card__meta-item"><i class="fas fa-clock"></i> 5 Days / 4 Nights</span>
+          <span class="trip-card__meta-item"><i class="fas fa-map-marker-alt"></i> Dubai, UAE</span>
+          <span class="trip-card__meta-item"><i class="fas fa-users"></i> Women Only Group</span>
+        </div>
+        <div class="trip-card__highlights">
+          <span>Burj Khalifa 124th Fl</span>
+          <span>Desert Safari with BBQ</span>
+          <span>Dhow Cruise Dinner</span>
+          <span>Global Village</span>
+        </div>
+        <div class="trip-card__footer">
+          <div>
+            <div class="trip-card__price-label">Per person starting from</div>
+            <div class="trip-card__price-val">₹55,000</div>
+          </div>
+          <a href="/package-detail.html" class="btn btn--primary btn--sm">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trip 3 -->
+    <div class="trip-card" style="opacity:0.8">
+      <div class="trip-card__date-block" style="background:var(--color-text-muted)">
+        <span class="trip-card__month">Dec</span>
+        <span class="trip-card__day">28</span>
+        <span class="trip-card__year">2025</span>
+      </div>
+      <div class="trip-card__image">
+        <img src="https://images.unsplash.com/photo-1528181304800-259b08848526?w=500&q=80" alt="Thailand New Year" style="filter:grayscale(1)">
+      </div>
+      <div class="trip-card__content">
+        <div class="trip-card__header">
+          <h3 class="trip-card__title">Thailand New Year Bash</h3>
+          <span class="trip-card__status trip-card__status--full"><i class="fas fa-times-circle"></i> Sold Out</span>
+        </div>
+        <div class="trip-card__meta">
+          <span class="trip-card__meta-item"><i class="fas fa-clock"></i> 6 Days / 5 Nights</span>
+          <span class="trip-card__meta-item"><i class="fas fa-map-marker-alt"></i> Phuket & Krabi</span>
+          <span class="trip-card__meta-item"><i class="fas fa-users"></i> Youth Group (18-35)</span>
+        </div>
+        <div class="trip-card__highlights">
+          <span>Phi Phi Island</span>
+          <span>New Year Gala Dinner</span>
+          <span>James Bond Island</span>
+        </div>
+        <div class="trip-card__footer">
+          <div>
+            <div class="trip-card__price-label">Per person starting from</div>
+            <div class="trip-card__price-val">₹48,900</div>
+          </div>
+          <button class="btn btn--outline btn--sm" disabled>Join Waitlist</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trip 4 -->
+    <div class="trip-card">
+      <div class="trip-card__date-block">
+        <span class="trip-card__month">Jan</span>
+        <span class="trip-card__day">15</span>
+        <span class="trip-card__year">2026</span>
+      </div>
+      <div class="trip-card__image">
+        <img src="https://images.unsplash.com/photo-1559586616-361e18714958?w=500&q=80" alt="Vietnam Expedition">
+      </div>
+      <div class="trip-card__content">
+        <div class="trip-card__header">
+          <h3 class="trip-card__title">Vietnam Cultural Expedition</h3>
+          <span class="trip-card__status" style="background:rgba(0,0,0,0.05);color:var(--color-text-body)"><i class="fas fa-door-open"></i> Open for Booking</span>
+        </div>
+        <div class="trip-card__meta">
+          <span class="trip-card__meta-item"><i class="fas fa-clock"></i> 8 Days / 7 Nights</span>
+          <span class="trip-card__meta-item"><i class="fas fa-map-marker-alt"></i> Hanoi & Da Nang</span>
+          <span class="trip-card__meta-item"><i class="fas fa-users"></i> Mixed Group</span>
+        </div>
+        <div class="trip-card__highlights">
+          <span>Ha Long Bay Cruise</span>
+          <span>Ba Na Hills</span>
+          <span>Hoi An Lantern Boat</span>
+        </div>
+        <div class="trip-card__footer">
+          <div>
+            <div class="trip-card__price-label">Per person starting from</div>
+            <div class="trip-card__price-val">₹62,500</div>
+          </div>
+          <a href="/package-detail.html" class="btn btn--primary btn--sm">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:var(--space-xl)">
+      <p style="margin-bottom:var(--space-md);color:var(--color-text-body)">Don't see dates that work for you?</p>
+      <button class="btn btn--outline">Request Custom Dates</button>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- Footer (same as homepage) -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <h4 style="font-family:var(--font-display);font-size:var(--text-xl);margin-bottom:var(--space-md)">Kan<span style="color:var(--color-primary)">Holidays</span></h4>
+        <p>Global Community of Travelers. Creating unforgettable memories one trip at a time.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Quick Links</h4><ul class="footer-links"><li><a href="/about-us">About Us</a></li><li><a href="/blogs">Blog</a></li><li><a href="/upcoming-trips">Upcoming Trips</a></li><li><a href="/visa">Visa Services</a></li><li><a href="/pay-us">Pay Us</a></li></ul></div>
+      <div class="footer-col"><h4>Top Destinations</h4><ul class="footer-links"><li><a href="/destinations/bali">Bali</a></li><li><a href="/destinations/dubai">Dubai</a></li><li><a href="/destinations/maldives">Maldives</a></li><li><a href="/destinations/kashmir">Kashmir</a></li><li><a href="/destinations/mauritius">Mauritius</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><div class="footer-contact-item"><i class="fas fa-phone-alt"></i><a href="tel:+919311957339" style="color:rgba(255,255,255,0.8)">+91-9311957339</a></div><div class="footer-contact-item"><i class="fab fa-whatsapp"></i><a href="https://wa.me/919311957339" style="color:rgba(255,255,255,0.8)">WhatsApp</a></div><div class="footer-contact-item"><i class="fas fa-envelope"></i>info@kanholidays.com</div></div>
+    </div>
+    <div class="footer-bottom"><div>&copy; 2025 KanHolidays. All rights reserved.</div></div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 50);
+  }, { passive: true });
+
+  const toggle = document.getElementById('mobileToggle');
+  if (toggle) {
+    toggle.addEventListener('click', () => {
+      toggle.classList.toggle('active');
+    });
+  }
+});
+</script>
+
+</body>
+</html>
