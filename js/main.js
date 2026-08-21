@@ -229,12 +229,12 @@ function initTrendingPackages() {
     filtered = filtered.slice(0, 9);
 
     grid.innerHTML = filtered.map(pkg => `
-      <div class="card" onclick="location.href='/destinations/${pkg.dest.toLowerCase().replace(/[^a-z0-9]+/g,'-')}.html'">
+      <a href="/destinations/${pkg.dest.toLowerCase().replace(/[^a-z0-9]+/g,'-')}.html" class="card">
         <div class="card__image">
           <img src="${pkg.image}" alt="${pkg.name}" loading="lazy">
           <span class="card__badge">${pkg.dest}</span>
-          <button class="card__wishlist" onclick="event.stopPropagation();this.classList.toggle('active')" aria-label="Add to wishlist">
-            <i class="fas fa-heart"></i>
+          <button class="card__wishlist" onclick="event.preventDefault();event.stopPropagation();this.classList.toggle('active')" aria-label="Add to wishlist">
+            <i class="fas fa-heart" aria-hidden="true"></i>
           </button>
         </div>
         <div class="card__body">
@@ -245,9 +245,9 @@ function initTrendingPackages() {
           <h3 class="card__title">${pkg.name}</h3>
           <p class="card__subtitle">${pkg.highlights.join(' · ')}</p>
           <div class="card__chips">
-            <span class="chip"><i class="fas fa-clock"></i> ${pkg.duration}</span>
-            ${pkg.flights ? '<span class="chip"><i class="fas fa-plane"></i> Flights Inc.</span>' : ''}
-            <span class="chip"><i class="fas fa-hotel"></i> Hotel</span>
+            <span class="chip"><i class="fas fa-clock" aria-hidden="true"></i> ${pkg.duration}</span>
+            ${pkg.flights ? '<span class="chip"><i class="fas fa-plane" aria-hidden="true"></i> Flights Inc.</span>' : ''}
+            <span class="chip"><i class="fas fa-hotel" aria-hidden="true"></i> Hotel</span>
           </div>
           <div class="card__footer">
             <div class="card__price">
@@ -258,7 +258,7 @@ function initTrendingPackages() {
             <span class="btn btn--sm btn--primary">View Details</span>
           </div>
         </div>
-      </div>
+      </a>
     `).join('');
   }
 

@@ -20,10 +20,16 @@
   <link rel="stylesheet" href="/css/components.css">
   <link rel="stylesheet" href="/css/homepage.css">
 
+  <!-- Preload critical hero image -->
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1920&q=80">
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/kanholidaysfinallogofile/1.png">
 </head>
 <body>
+
+<!-- Skip to main content -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
 
 <!-- ═══════════════════════════════════════════════
      HEADER
@@ -32,7 +38,7 @@
   <div class="header-inner">
     <!-- Logo -->
     <a href="/" class="header-logo" id="headerLogo">
-      <img src="/kanholidaysfinallogofile/1.png" alt="KanHolidays Logo">
+      <img src="/kanholidaysfinallogofile/1.png" alt="KanHolidays Logo" width="120" height="44">
     </a>
 
     <!-- Main Navigation -->
@@ -40,7 +46,7 @@
       <ul>
         <!-- International Trips -->
         <li class="nav-item">
-          <a href="/destinations" class="nav-link">International Trips <i class=\"fas fa-chevron-down\" aria-hidden=\"true\"></i></a>
+          <a href="/destinations" class="nav-link">International Trips <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
           <div class="mega-menu">
             <div class="mega-col">
               <div class="mega-col-title">Asia</div>
@@ -80,7 +86,7 @@
 
         <!-- India Trips -->
         <li class="nav-item">
-          <a href="/destinations" class="nav-link">India Trips <i class=\"fas fa-chevron-down\" aria-hidden=\"true\"></i></a>
+          <a href="/destinations" class="nav-link">India Trips <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
           <div class="mega-menu">
             <div class="mega-col">
               <div class="mega-col-title">North India</div>
@@ -117,7 +123,7 @@
 
         <!-- Honeymoon -->
         <li class="nav-item">
-          <a href="/honeymoon" class="nav-link">Honeymoon <i class=\"fas fa-chevron-down\" aria-hidden=\"true\"></i></a>
+          <a href="/honeymoon" class="nav-link">Honeymoon <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
           <div class="mega-menu" style="min-width:300px">
             <div class="mega-col">
               <div class="mega-col-title">Top Honeymoon Destinations</div>
@@ -135,7 +141,7 @@
 
         <!-- Experiences -->
         <li class="nav-item">
-          <a href="/experiences" class="nav-link">Experiences <i class=\"fas fa-chevron-down\" aria-hidden=\"true\"></i></a>
+          <a href="/experiences" class="nav-link">Experiences <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
           <div class="mega-menu" style="min-width:400px">
             <div class="mega-col">
               <ul>
@@ -165,10 +171,10 @@
     <!-- Header Actions -->
     <div class="header-actions">
       <button class="btn--icon btn--outline" id="searchToggle" aria-label="Search">
-        <i class=\"fas fa-search\" aria-hidden=\"true\"></i>
+        <i class="fas fa-search" aria-hidden="true"></i>
       </button>
       <a href="tel:+919311957339" class="header-phone hide-mobile">
-        <i class=\"fas fa-phone-alt\" aria-hidden=\"true\"></i>
+        <i class="fas fa-phone-alt" aria-hidden="true"></i>
         <span>+91-9311957339</span>
       </a>
       <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
@@ -193,8 +199,8 @@
   <a href="/blogs" class="nav-link">Blog</a>
   <a href="/about-us" class="nav-link">About Us</a>
   <div class="mobile-menu-cta">
-    <a href="tel:+919311957339" class="btn btn--primary btn--block"><i class=\"fas fa-phone-alt\" aria-hidden=\"true\"></i> Call +91-9311957339</a>
-    <a href="https://wa.me/919311957339?text=Hi%20KanHolidays!%20I%27d%20like%20to%20plan%20a%20trip." class="btn btn--whatsapp btn--block" target="_blank"><i class=\"fab fa-whatsapp\" aria-hidden=\"true\"></i> WhatsApp Us</a>
+    <a href="tel:+919311957339" class="btn btn--primary btn--block"><i class="fas fa-phone-alt" aria-hidden="true"></i> Call +91-9311957339</a>
+    <a href="https://wa.me/919311957339?text=Hi%20KanHolidays!%20I%27d%20like%20to%20plan%20a%20trip." class="btn btn--whatsapp btn--block" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp Us</a>
   </div>
 </div>
 
@@ -203,10 +209,10 @@
      SEARCH OVERLAY
      ═══════════════════════════════════════════════ -->
 <div class="search-overlay" id="searchOverlay">
-  <button class="search-overlay__close" id="searchClose"><i class=\"fas fa-times\" aria-hidden=\"true\"></i></button>
+  <button class="search-overlay__close" id="searchClose" aria-label="Close search"><i class="fas fa-times" aria-hidden="true"></i></button>
   <div class="search-overlay__input-wrap">
-    <i class=\"fas fa-search search-overlay__icon\" aria-hidden=\"true\"></i>
-    <input type="text" class="search-overlay__input" placeholder="Where do you want to go?" autofocus id="searchInput">
+    <i class="fas fa-search search-overlay__icon" aria-hidden="true"></i>
+    <input type="text" class="search-overlay__input" placeholder="Where do you want to go…" autofocus id="searchInput" name="search" autocomplete="off">
   </div>
   <div class="search-overlay__suggestions">
     <div class="search-overlay__label">Popular Destinations</div>
@@ -229,7 +235,7 @@
 <!-- ═══════════════════════════════════════════════
      HERO SECTION
      ═══════════════════════════════════════════════ -->
-<section class="hero" id="hero">
+<section class="hero" id="main-content">
   <div class="hero-slider" id="heroSlider">
     <div class="hero-slide active" data-index="0">
       <div class="hero-slide__image" style="background-image:url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1920&q=80')"></div>
@@ -254,14 +260,14 @@
   </div>
 
   <div class="hero-content">
-    <div class="hero-tag"><i class=\"fas fa-paper-plane\" aria-hidden=\"true\"></i> International & India Tours</div>
+    <div class="hero-tag"><i class="fas fa-paper-plane" aria-hidden="true"></i> International & India Tours</div>
     <h1 class="hero-title" id="heroTitle">Discover Bali</h1>
     <p class="hero-subtitle" id="heroSubtitle">Island of the Gods — from ₹22,576 per person</p>
 
     <!-- Search Bar -->
     <div class="hero-search">
-      <i class=\"fas fa-search hero-search__icon\" aria-hidden=\"true\"></i>
-      <input type="text" class="hero-search__input" placeholder="Where do you want to go?" id="heroSearchInput">
+      <i class="fas fa-search hero-search__icon" aria-hidden="true"></i>
+      <input type="text" class="hero-search__input" placeholder="Where do you want to go…" id="heroSearchInput" name="hero-search" autocomplete="off">
       <button class="hero-search__btn" id="heroSearchBtn">Search</button>
     </div>
 
@@ -292,42 +298,42 @@
   <div class="container">
     <div class="trust-bar__inner">
       <div class="trust-item">
-        <div class="trust-item__icon"><i class=\"fas fa-star\" aria-hidden=\"true\"></i></div>
+        <div class="trust-item__icon"><i class="fas fa-star" aria-hidden="true"></i></div>
         <div class="trust-item__text">
           <span class="trust-item__number" data-count="4.9">4.9/5</span>
           <span class="trust-item__label">Google Rating</span>
         </div>
       </div>
       <div class="trust-item">
-        <div class="trust-item__icon"><i class=\"fas fa-globe-asia\" aria-hidden=\"true\"></i></div>
+        <div class="trust-item__icon"><i class="fas fa-globe-asia" aria-hidden="true"></i></div>
         <div class="trust-item__text">
           <span class="trust-item__number" data-count="35">35+</span>
           <span class="trust-item__label">Destinations</span>
         </div>
       </div>
       <div class="trust-item">
-        <div class="trust-item__icon"><i class=\"fas fa-headset\" aria-hidden=\"true\"></i></div>
+        <div class="trust-item__icon"><i class="fas fa-headset" aria-hidden="true"></i></div>
         <div class="trust-item__text">
           <span class="trust-item__number">24/7</span>
           <span class="trust-item__label">Support</span>
         </div>
       </div>
       <div class="trust-item">
-        <div class="trust-item__icon"><i class=\"fas fa-users\" aria-hidden=\"true\"></i></div>
+        <div class="trust-item__icon"><i class="fas fa-users" aria-hidden="true"></i></div>
         <div class="trust-item__text">
           <span class="trust-item__number" data-count="10000">10,000+</span>
           <span class="trust-item__label">Happy Travelers</span>
         </div>
       </div>
       <div class="trust-item hide-mobile">
-        <div class="trust-item__icon"><i class=\"fas fa-shield-alt\" aria-hidden=\"true\"></i></div>
+        <div class="trust-item__icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
         <div class="trust-item__text">
           <span class="trust-item__number">Secure</span>
           <span class="trust-item__label">Payments</span>
         </div>
       </div>
       <div class="trust-item hide-mobile">
-        <div class="trust-item__icon"><i class=\"fas fa-tag\" aria-hidden=\"true\"></i></div>
+        <div class="trust-item__icon"><i class="fas fa-tag" aria-hidden="true"></i></div>
         <div class="trust-item__text">
           <span class="trust-item__number">No Hidden</span>
           <span class="trust-item__label">Costs</span>
@@ -364,7 +370,7 @@
     </div>
 
     <div class="text-center" style="margin-top:var(--space-2xl)">
-      <a href="/destinations" class="btn btn--outline">View All Packages <i class=\"fas fa-arrow-right\" aria-hidden=\"true\" style="margin-left:6px"></i></a>
+      <a href="/destinations" class="btn btn--outline">View All Packages <i class="fas fa-arrow-right" aria-hidden="true" style="margin-left:6px"></i></a>
     </div>
   </div>
 </section>
@@ -382,54 +388,54 @@
     </div>
 
     <div class="bento-grid reveal">
-      <div class="bento-item" onclick="location.href='/destinations/europe'">
+      <a href="/destinations/europe" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Europe</div>
           <div class="bento-item__meta">10D9N · <span class="bento-item__price">From ₹44,888</span></div>
         </div>
-      </div>
-      <div class="bento-item" onclick="location.href='/destinations/bali'">
+      </a>
+      <a href="/destinations/bali" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Bali</div>
           <div class="bento-item__meta"><span class="bento-item__price">From ₹22,576</span></div>
         </div>
-      </div>
-      <div class="bento-item" onclick="location.href='/destinations/dubai'">
+      </a>
+      <a href="/destinations/dubai" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Dubai</div>
           <div class="bento-item__meta"><span class="bento-item__price">From ₹15,302</span></div>
         </div>
-      </div>
-      <div class="bento-item" onclick="location.href='/destinations/maldives'">
+      </a>
+      <a href="/destinations/maldives" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=600&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Maldives</div>
           <div class="bento-item__meta"><span class="bento-item__price">From ₹72,250</span></div>
         </div>
-      </div>
-      <div class="bento-item" onclick="location.href='/destinations/vietnam'">
+      </a>
+      <a href="/destinations/vietnam" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=600&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Vietnam</div>
           <div class="bento-item__meta"><span class="bento-item__price">From ₹32,743</span></div>
         </div>
-      </div>
-      <div class="bento-item" onclick="location.href='/destinations/mauritius'">
+      </a>
+      <a href="/destinations/mauritius" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Mauritius</div>
           <div class="bento-item__meta"><span class="bento-item__price">From ₹45,750</span></div>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </section>
@@ -448,22 +454,22 @@
 
     <div class="why-grid stagger reveal">
       <div class="why-card" style="--i:0">
-        <div class="why-card__icon"><i class=\"fas fa-map-marked-alt\" aria-hidden=\"true\"></i></div>
+        <div class="why-card__icon"><i class="fas fa-map-marked-alt" aria-hidden="true"></i></div>
         <h4 class="why-card__title">Destination Experts</h4>
         <p class="why-card__text">In-house travel specialists for every destination. We've been there, so we know what works.</p>
       </div>
       <div class="why-card" style="--i:1">
-        <div class="why-card__icon"><i class=\"fas fa-hand-holding-usd\" aria-hidden=\"true\"></i></div>
+        <div class="why-card__icon"><i class="fas fa-hand-holding-usd" aria-hidden="true"></i></div>
         <h4 class="why-card__title">Best Price Guaranteed</h4>
         <p class="why-card__text">No hidden fees, transparent pricing, and flexible EMI options to make your dream trip affordable.</p>
       </div>
       <div class="why-card" style="--i:2">
-        <div class="why-card__icon"><i class=\"fas fa-shield-alt\" aria-hidden=\"true\"></i></div>
+        <div class="why-card__icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
         <h4 class="why-card__title">Safe & Secure</h4>
         <p class="why-card__text">Licensed DMC with travel insurance, secure payments, and on-ground support at every destination.</p>
       </div>
       <div class="why-card" style="--i:3">
-        <div class="why-card__icon"><i class=\"fas fa-headset\" aria-hidden=\"true\"></i></div>
+        <div class="why-card__icon"><i class="fas fa-headset" aria-hidden="true"></i></div>
         <h4 class="why-card__title">24/7 Support</h4>
         <p class="why-card__text">WhatsApp and phone support around the clock — before, during, and after your trip.</p>
       </div>
@@ -484,47 +490,47 @@
     </div>
 
     <div class="bento-grid reveal">
-      <div class="bento-item" onclick="location.href='/destinations/kashmir'">
+      <a href="/destinations/kashmir" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=800&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Kashmir</div>
           <div class="bento-item__meta">5D4N · <span class="bento-item__price">From ₹16,134</span></div>
         </div>
-      </div>
-      <div class="bento-item" onclick="location.href='/destinations/ladakh'">
+      </a>
+      <a href="/destinations/ladakh" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Ladakh</div>
           <div class="bento-item__meta"><span class="bento-item__price">From ₹11,394</span></div>
         </div>
-      </div>
-      <div class="bento-item" onclick="location.href='/destinations/rajasthan'">
+      </a>
+      <a href="/destinations/rajasthan" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1477587458883-47145ed94245?w=600&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Rajasthan</div>
           <div class="bento-item__meta"><span class="bento-item__price">From ₹12,999</span></div>
         </div>
-      </div>
-      <div class="bento-item" onclick="location.href='/destinations/kerala'">
+      </a>
+      <a href="/destinations/kerala" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Kerala</div>
           <div class="bento-item__meta"><span class="bento-item__price">From ₹14,202</span></div>
         </div>
-      </div>
-      <div class="bento-item" onclick="location.href='/destinations/meghalaya'">
+      </a>
+      <a href="/destinations/meghalaya" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=600&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
           <div class="bento-item__title">Meghalaya</div>
           <div class="bento-item__meta"><span class="bento-item__price">From ₹16,794</span></div>
         </div>
-      </div>
-      <div class="bento-item" onclick="location.href='/destinations/goa'">
+      </a>
+      <a href="/destinations/goa" class="bento-item">
         <div class="bento-item__image" style="background-image:url('https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600&q=80')"></div>
         <div class="bento-item__overlay"></div>
         <div class="bento-item__content">
@@ -543,9 +549,9 @@
 <section class="honeymoon-section" id="honeymoon">
   <div class="honeymoon-bg"></div>
   <div class="container honeymoon-content reveal">
-    <div class="hero-tag" style="margin-bottom:var(--space-lg)"><i class=\"fas fa-heart\" aria-hidden=\"true\"></i> Honeymoon Collection</div>
+    <div class="hero-tag" style="margin-bottom:var(--space-lg)"><i class="fas fa-heart" aria-hidden="true"></i> Honeymoon Collection</div>
     <h2 class="honeymoon-title">Begin Your Forever With Us</h2>
-    <p class="honeymoon-subtitle">"Romantic getaways crafted for couples"</p>
+    <p class="honeymoon-subtitle">“Romantic getaways crafted for couples”</p>
 
     <div class="honeymoon-grid">
       <a href="/destinations/maldives" class="honeymoon-card">
@@ -590,7 +596,7 @@
       </a>
     </div>
 
-    <a href="/honeymoon" class="btn btn--outline-white btn--lg">Plan My Honeymoon <i class=\"fas fa-arrow-right\" aria-hidden=\"true\" style="margin-left:8px"></i></a>
+    <a href="/honeymoon" class="btn btn--outline-white btn--lg">Plan My Honeymoon <i class="fas fa-arrow-right" aria-hidden="true" style="margin-left:8px"></i></a>
   </div>
 </section>
 
@@ -609,7 +615,7 @@
     <div class="grid grid--3 reveal" id="testimonialGrid">
       <!-- Testimonial 1 -->
       <div class="testimonial-card">
-        <div class="testimonial-stars"><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i></div>
+        <div class="testimonial-stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i></div>
         <p class="testimonial-text">"Our Bali trip was absolutely magical! KanHolidays planned every detail perfectly. The hotels were amazing, transfers were seamless, and the itinerary was perfectly paced. Highly recommend!"</p>
         <div class="testimonial-author">
           <div class="testimonial-avatar" style="background:linear-gradient(135deg,#E8720C,#F0C040);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:1.1rem;">RP</div>
@@ -622,7 +628,7 @@
 
       <!-- Testimonial 2 -->
       <div class="testimonial-card">
-        <div class="testimonial-stars"><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i></div>
+        <div class="testimonial-stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i></div>
         <p class="testimonial-text">"Best honeymoon package we could have asked for! The Maldives resort was beyond our dreams. The team was responsive on WhatsApp 24/7 and made us feel special. Thank you KanHolidays!"</p>
         <div class="testimonial-author">
           <div class="testimonial-avatar" style="background:linear-gradient(135deg,#2ECC71,#1DA855);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:1.1rem;">AS</div>
@@ -635,7 +641,7 @@
 
       <!-- Testimonial 3 -->
       <div class="testimonial-card">
-        <div class="testimonial-stars"><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star-half-alt\" aria-hidden=\"true\"></i></div>
+        <div class="testimonial-stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star-half-alt" aria-hidden="true"></i></div>
         <p class="testimonial-text">"Took our family of 5 to Mauritius. Everything was perfectly organized — airport pickups, day tours, even restaurant recommendations. The kids loved the water sports. Will book again!"</p>
         <div class="testimonial-author">
           <div class="testimonial-avatar" style="background:linear-gradient(135deg,#1B2D45,#2A4060);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:1.1rem;">VK</div>
@@ -648,7 +654,7 @@
 
       <!-- Testimonial 4 -->
       <div class="testimonial-card">
-        <div class="testimonial-stars"><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i></div>
+        <div class="testimonial-stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i></div>
         <p class="testimonial-text">"The Kashmir trip was a once-in-a-lifetime experience. Shikara ride on Dal Lake, Gulmarg's snow-covered meadows — everything was picture-perfect. EMI option was really helpful for budgeting."</p>
         <div class="testimonial-author">
           <div class="testimonial-avatar" style="background:linear-gradient(135deg,#F0C040,#E8720C);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:1.1rem;">PM</div>
@@ -661,7 +667,7 @@
 
       <!-- Testimonial 5 -->
       <div class="testimonial-card">
-        <div class="testimonial-stars"><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i></div>
+        <div class="testimonial-stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i></div>
         <p class="testimonial-text">"Dubai trip exceeded all expectations! The desert safari was thrilling, Burj Khalifa at sunset was breathtaking, and the hotel was 5-star quality. KanHolidays negotiated an incredible deal for us."</p>
         <div class="testimonial-author">
           <div class="testimonial-avatar" style="background:linear-gradient(135deg,#E74C3C,#C0392B);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:1.1rem;">SJ</div>
@@ -674,7 +680,7 @@
 
       <!-- Testimonial 6 -->
       <div class="testimonial-card">
-        <div class="testimonial-stars"><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i><i class=\"fas fa-star\" aria-hidden=\"true\"></i></div>
+        <div class="testimonial-stars"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i></div>
         <p class="testimonial-text">"As a solo female traveler, safety was my top priority. KanHolidays ensured I had reliable guides and stays throughout my Vietnam trip. The Halong Bay cruise was absolutely stunning. Thank you!"</p>
         <div class="testimonial-author">
           <div class="testimonial-avatar" style="background:linear-gradient(135deg,#9B59B6,#8E44AD);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:1.1rem;">NK</div>
@@ -688,7 +694,7 @@
 
     <div class="text-center" style="margin-top:var(--space-2xl)">
       <a href="https://search.google.com/local/reviews?placeid=ChIJ..." target="_blank" class="btn btn--outline">
-        <i class=\"fab fa-google\" aria-hidden=\"true\" style="margin-right:6px"></i> See All Google Reviews
+        <i class="fab fa-google" aria-hidden="true" style="margin-right:6px"></i> See All Google Reviews
       </a>
     </div>
   </div>
@@ -707,7 +713,7 @@
     </div>
 
     <div class="grid grid--3 reveal">
-      <article class="blog-card">
+      <a href="/blogs" class="blog-card">
         <div class="blog-card__image">
           <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=500&q=80" alt="Top 10 Things to Do in Bali" loading="lazy">
         </div>
@@ -720,9 +726,9 @@
             <span>8 min read</span>
           </div>
         </div>
-      </article>
+      </a>
 
-      <article class="blog-card">
+      <a href="/blogs" class="blog-card">
         <div class="blog-card__image">
           <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=500&q=80" alt="Kashmir Travel Guide" loading="lazy">
         </div>
@@ -735,9 +741,9 @@
             <span>12 min read</span>
           </div>
         </div>
-      </article>
+      </a>
 
-      <article class="blog-card">
+      <a href="/blogs" class="blog-card">
         <div class="blog-card__image">
           <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=500&q=80" alt="Maldives Honeymoon Guide" loading="lazy">
         </div>
@@ -750,11 +756,11 @@
             <span>10 min read</span>
           </div>
         </div>
-      </article>
+      </a>
     </div>
 
     <div class="text-center" style="margin-top:var(--space-2xl)">
-      <a href="/blogs" class="btn btn--outline">View All Articles <i class=\"fas fa-arrow-right\" aria-hidden=\"true\" style="margin-left:6px"></i></a>
+      <a href="/blogs" class="btn btn--outline">View All Articles <i class="fas fa-arrow-right" aria-hidden="true" style="margin-left:6px"></i></a>
     </div>
   </div>
 </section>
@@ -766,10 +772,11 @@
 <section class="section">
   <div class="container">
     <div class="newsletter reveal">
-      <h3>🌍 Get Exclusive Travel Deals</h3>
+      <h3><i class="fas fa-globe-americas" aria-hidden="true"></i> Get Exclusive Travel Deals</h3>
       <p>Subscribe for early-bird offers, secret deals & travel inspiration delivered to your inbox</p>
       <form class="newsletter-form" onsubmit="return false;">
-        <input type="email" placeholder="Enter your email address" required>
+        <label for="newsletterEmail" class="sr-only">Email address</label>
+        <input type="email" id="newsletterEmail" name="email" autocomplete="email" placeholder="Enter your email address…" required>
         <button type="submit" class="btn btn--primary">Subscribe</button>
       </form>
     </div>
@@ -790,11 +797,11 @@
         </h4>
         <p>Global Community of Travelers. Creating unforgettable memories one trip at a time. Licensed DMC with 35+ destinations, transparent pricing, and 24/7 support.</p>
         <div class="footer-social">
-          <a href="#" aria-label="Instagram"><i class=\"fab fa-instagram\" aria-hidden=\"true\"></i></a>
-          <a href="#" aria-label="Facebook"><i class=\"fab fa-facebook-f\" aria-hidden=\"true\"></i></a>
-          <a href="#" aria-label="YouTube"><i class=\"fab fa-youtube\" aria-hidden=\"true\"></i></a>
-          <a href="#" aria-label="LinkedIn"><i class=\"fab fa-linkedin-in\" aria-hidden=\"true\"></i></a>
-          <a href="#" aria-label="Twitter"><i class=\"fab fa-twitter\" aria-hidden=\"true\"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
         </div>
       </div>
 
@@ -832,23 +839,23 @@
       <div class="footer-col">
         <h4>Get In Touch</h4>
         <div class="footer-contact-item">
-          <i class=\"fas fa-phone-alt\" aria-hidden=\"true\"></i>
+          <i class="fas fa-phone-alt" aria-hidden="true"></i>
           <div>
             <a href="tel:+919311957339" style="color:rgba(255,255,255,0.8)">+91-9311957339</a>
           </div>
         </div>
         <div class="footer-contact-item">
-          <i class=\"fab fa-whatsapp\" aria-hidden=\"true\"></i>
+          <i class="fab fa-whatsapp" aria-hidden="true"></i>
           <div>
             <a href="https://wa.me/919311957339" target="_blank" style="color:rgba(255,255,255,0.8)">WhatsApp Us</a>
           </div>
         </div>
         <div class="footer-contact-item">
-          <i class=\"fas fa-envelope\" aria-hidden=\"true\"></i>
+          <i class="fas fa-envelope" aria-hidden="true"></i>
           <div>info@kanholidays.com</div>
         </div>
         <div class="footer-contact-item">
-          <i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i>
+          <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
           <div>New Delhi, India</div>
         </div>
       </div>
@@ -857,9 +864,9 @@
     <div class="footer-bottom">
       <div>&copy; 2025 KanHolidays. All rights reserved.</div>
       <div class="footer-badges">
-        <span style="font-size:0.75rem">🔒 SSL Secured</span>
-        <span style="font-size:0.75rem">✅ Licensed DMC</span>
-        <span style="font-size:0.75rem">💳 EMI Available</span>
+        <span style="font-size:0.75rem"><i class="fas fa-lock" aria-hidden="true"></i> SSL Secured</span>
+        <span style="font-size:0.75rem"><i class="fas fa-check-circle" aria-hidden="true"></i> Licensed DMC</span>
+        <span style="font-size:0.75rem"><i class="fas fa-credit-card" aria-hidden="true"></i> EMI Available</span>
       </div>
     </div>
   </div>
@@ -872,7 +879,7 @@
 <div class="whatsapp-widget no-print" id="whatsappWidget">
   <div class="whatsapp-tooltip">💬 Planning a trip? Chat with us!</div>
   <a href="https://wa.me/919311957339?text=Hi%20KanHolidays!%20I%27d%20like%20to%20plan%20a%20trip." target="_blank" class="whatsapp-btn" aria-label="Chat on WhatsApp">
-    <i class=\"fab fa-whatsapp\" aria-hidden=\"true\"></i>
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
   </a>
 </div>
 
@@ -882,11 +889,11 @@
      ═══════════════════════════════════════════════ -->
 <nav class="mobile-bottom-nav no-print" id="mobileBottomNav">
   <div class="mobile-bottom-nav__inner">
-    <a href="/" class="mobile-bottom-nav__item active"><i class=\"fas fa-home\" aria-hidden=\"true\"></i><span>Home</span></a>
-    <a href="/destinations" class="mobile-bottom-nav__item"><i class=\"fas fa-search\" aria-hidden=\"true\"></i><span>Explore</span></a>
-    <a href="/upcoming-trips" class="mobile-bottom-nav__item"><i class=\"fas fa-suitcase-rolling\" aria-hidden=\"true\"></i><span>Trips</span></a>
-    <a href="https://wa.me/919311957339" class="mobile-bottom-nav__item" target="_blank"><i class=\"fab fa-whatsapp\" aria-hidden=\"true\"></i><span>Chat</span></a>
-    <a href="tel:+919311957339" class="mobile-bottom-nav__item"><i class=\"fas fa-phone-alt\" aria-hidden=\"true\"></i><span>Call</span></a>
+    <a href="/" class="mobile-bottom-nav__item active"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span></a>
+    <a href="/destinations" class="mobile-bottom-nav__item"><i class="fas fa-search" aria-hidden="true"></i><span>Explore</span></a>
+    <a href="/upcoming-trips" class="mobile-bottom-nav__item"><i class="fas fa-suitcase-rolling" aria-hidden="true"></i><span>Trips</span></a>
+    <a href="https://wa.me/919311957339" class="mobile-bottom-nav__item" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i><span>Chat</span></a>
+    <a href="tel:+919311957339" class="mobile-bottom-nav__item"><i class="fas fa-phone-alt" aria-hidden="true"></i><span>Call</span></a>
   </div>
 </nav>
 
@@ -898,25 +905,25 @@
   <div class="modal">
     <div class="modal-header">
       <h3>Get a Free Callback</h3>
-      <button class="modal-close" onclick="closeCallbackModal()"><i class=\"fas fa-times\" aria-hidden=\"true\"></i></button>
+      <button class="modal-close" onclick="closeCallbackModal()"><i class="fas fa-times" aria-hidden="true"></i></button>
     </div>
     <div class="modal-body">
       <form onsubmit="return false;" id="callbackForm">
         <div class="form-group">
-          <label class="form-label">Full Name</label>
-          <input type="text" class="form-input" placeholder="Your name" required>
+          <label class="form-label" for="callbackName">Full Name</label>
+          <input type="text" class="form-input" id="callbackName" name="name" autocomplete="name" placeholder="Your name" required>
         </div>
         <div class="form-group">
-          <label class="form-label">Phone Number</label>
-          <input type="tel" class="form-input" placeholder="+91 XXXXX XXXXX" required>
+          <label class="form-label" for="callbackPhone">Phone Number</label>
+          <input type="tel" class="form-input" id="callbackPhone" name="phone" autocomplete="tel" placeholder="+91 XXXXX XXXXX" required>
         </div>
         <div class="form-group">
-          <label class="form-label">Email</label>
-          <input type="email" class="form-input" placeholder="your@email.com">
+          <label class="form-label" for="callbackEmail">Email</label>
+          <input type="email" class="form-input" id="callbackEmail" name="email" autocomplete="email" placeholder="your@email.com">
         </div>
         <div class="form-group">
-          <label class="form-label">Destination</label>
-          <select class="form-select" id="callbackDest">
+          <label class="form-label" for="callbackDest">Destination</label>
+          <select class="form-select" id="callbackDest" name="destination">
             <option value="">Select Destination</option>
             <option>Bali</option><option>Dubai</option><option>Maldives</option>
             <option>Kashmir</option><option>Vietnam</option><option>Mauritius</option>
@@ -926,12 +933,12 @@
           </select>
         </div>
         <div class="form-group">
-          <label class="form-label">Preferred Travel Date</label>
-          <input type="date" class="form-input">
+          <label class="form-label" for="callbackDate">Preferred Travel Date</label>
+          <input type="date" class="form-input" id="callbackDate" name="date">
         </div>
         <button type="submit" class="btn btn--primary btn--block btn--lg">Request Callback</button>
         <div class="modal-promise">
-          <i class=\"fas fa-clock\" aria-hidden=\"true\"></i> We'll call you within 30 minutes!
+          <i class="fas fa-clock" aria-hidden="true"></i> We'll call you within 30 minutes!
         </div>
       </form>
     </div>

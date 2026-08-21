@@ -11,7 +11,7 @@
   right: 0;
   z-index: var(--z-sticky);
   background: var(--color-white);
-  transition: all var(--duration-normal) var(--ease-out);
+  transition: background-color var(--duration-normal) var(--ease-out), color var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), opacity var(--duration-normal) var(--ease-out), margin var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out);
   border-bottom: 1px solid transparent;
 }
 
@@ -142,7 +142,7 @@
   font-size: var(--text-sm);
   color: var(--color-text-body);
   font-weight: 500;
-  transition: all var(--duration-fast);
+  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
 }
 
 .mega-col a:hover {
@@ -167,7 +167,7 @@
   padding: 0.5rem 1rem;
   border-radius: var(--radius-pill);
   border: 1.5px solid var(--color-border);
-  transition: all var(--duration-fast);
+  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
 }
 
 .header-phone:hover {
@@ -198,7 +198,7 @@
   height: 2px;
   background: var(--color-text-dark);
   border-radius: 2px;
-  transition: all var(--duration-normal) var(--ease-out);
+  transition: background-color var(--duration-normal) var(--ease-out), color var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), opacity var(--duration-normal) var(--ease-out), margin var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out);
 }
 
 .mobile-toggle.active span:nth-child(1) {
@@ -221,7 +221,7 @@
   z-index: var(--z-overlay);
   opacity: 0;
   visibility: hidden;
-  transition: all var(--duration-normal);
+  transition: background-color var(--duration-normal), color var(--duration-normal), border-color var(--duration-normal), box-shadow var(--duration-normal), transform var(--duration-normal), opacity var(--duration-normal), margin var(--duration-normal), padding var(--duration-normal);
 }
 
 .mobile-nav-overlay.active {
@@ -334,7 +334,7 @@ body {
   border-radius: var(--radius-circle);
   background: rgba(255,255,255,0.08);
   color: rgba(255,255,255,0.7);
-  transition: all var(--duration-fast);
+  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
   font-size: 1rem;
 }
 
@@ -361,7 +361,7 @@ body {
 .footer-links a {
   font-size: var(--text-sm);
   color: rgba(255,255,255,0.6);
-  transition: all var(--duration-fast);
+  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
   display: inline-flex;
   align-items: center;
   gap: var(--space-xs);
@@ -454,7 +454,7 @@ body {
   white-space: nowrap;
   opacity: 0;
   transform: translateY(8px);
-  transition: all var(--duration-normal) var(--ease-out);
+  transition: background-color var(--duration-normal) var(--ease-out), color var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), opacity var(--duration-normal) var(--ease-out), margin var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out);
   pointer-events: none;
 }
 
@@ -475,7 +475,7 @@ body {
   font-size: 1.8rem;
   box-shadow: 0 4px 20px rgba(37,211,102,0.4);
   cursor: pointer;
-  transition: all var(--duration-normal) var(--ease-out);
+  transition: background-color var(--duration-normal) var(--ease-out), color var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), opacity var(--duration-normal) var(--ease-out), margin var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out);
   border: none;
   animation: whatsapp-pulse 2s ease-in-out infinite;
 }
@@ -510,7 +510,8 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: var(--mobile-nav-height);
+  height: calc(var(--mobile-nav-height) + env(safe-area-inset-bottom, 0px));
+  padding-bottom: env(safe-area-inset-bottom, 0px);
   background: var(--color-white);
   border-top: 1px solid var(--color-border-light);
   display: none;
@@ -574,7 +575,7 @@ body {
   padding: var(--space-lg);
   opacity: 0;
   visibility: hidden;
-  transition: all var(--duration-normal);
+  transition: background-color var(--duration-normal), color var(--duration-normal), border-color var(--duration-normal), box-shadow var(--duration-normal), transform var(--duration-normal), opacity var(--duration-normal), margin var(--duration-normal), padding var(--duration-normal);
 }
 
 .modal-overlay.active {
@@ -621,7 +622,7 @@ body {
   justify-content: center;
   color: var(--color-text-light);
   font-size: 1.1rem;
-  transition: all var(--duration-fast);
+  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
 }
 
 .modal-close:hover {
@@ -660,7 +661,7 @@ body {
   padding-top: 15vh;
   opacity: 0;
   visibility: hidden;
-  transition: all var(--duration-normal);
+  transition: background-color var(--duration-normal), color var(--duration-normal), border-color var(--duration-normal), box-shadow var(--duration-normal), transform var(--duration-normal), opacity var(--duration-normal), margin var(--duration-normal), padding var(--duration-normal);
 }
 
 .search-overlay.active {
@@ -751,7 +752,7 @@ body {
   color: var(--color-text-body);
   border: 1px solid var(--color-border-light);
   cursor: pointer;
-  transition: all var(--duration-fast);
+  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
 }
 
 .search-pill:hover {
