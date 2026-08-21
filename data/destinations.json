@@ -1,2204 +1,2204 @@
 [
-    {
-        "slug": "bali",
-        "name": "Bali",
-        "hero_image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1600&q=80",
-        "price": "45,500",
-        "duration": "5N/6D",
-        "description": "The Complete Bali Experience \u2014 5N/6D tour package from \u20b945,500 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Ubud Monkey Forest & Rice Terraces",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Ubud Monkey Forest & Rice Terraces. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Tanah Lot Temple Sunset",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Tanah Lot Temple Sunset. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Nusa Penida Island Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Nusa Penida Island Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Seminyak Beach Leisure",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Seminyak Beach Leisure. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Ubud Monkey Forest",
-            "Tanah Lot Temple Sunset",
-            "Nusa Penida Day Trip",
-            "Tegallalang Rice Terraces",
-            "Balinese Spa Experience"
-        ],
-        "best_time": "April \u2013 October"
-    },
-    {
-        "slug": "dubai",
-        "name": "Dubai",
-        "hero_image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1600&q=80",
-        "price": "45,500",
-        "duration": "5N/6D",
-        "description": "The Complete Dubai Experience \u2014 5N/6D tour package from \u20b945,500 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Desert Safari & BBQ Dinner",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Desert Safari & BBQ Dinner. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Burj Khalifa At The Top",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Burj Khalifa At The Top. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Dubai Mall & Aquarium",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Dubai Mall & Aquarium. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Dubai Marina Cruise",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Dubai Marina Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Desert Safari with BBQ",
-            "Burj Khalifa 124th Floor",
-            "Dubai Mall & Fountain Show",
-            "Marina Dhow Cruise",
-            "Gold Souk Shopping"
-        ],
-        "best_time": "November \u2013 March"
-    },
-    {
-        "slug": "maldives",
-        "name": "Maldives",
-        "hero_image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1600&q=80",
-        "price": "89,999",
-        "duration": "4N/5D",
-        "description": "The Complete Maldives Experience \u2014 4N/5D tour package from \u20b989,999 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Resort Check-in & Beach Leisure",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Resort Check-in & Beach Leisure. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Snorkeling & Water Sports",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Snorkeling & Water Sports. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Sunset Dolphin Cruise",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Sunset Dolphin Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Luxury Resort Stay",
-            "Snorkeling & Diving",
-            "Sunset Dolphin Cruise",
-            "Private Beach Dinner",
-            "Water Sports"
-        ],
-        "best_time": "November \u2013 April"
-    },
-    {
-        "slug": "kashmir",
-        "name": "Kashmir",
-        "hero_image": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Kashmir Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Srinagar Dal Lake Shikara Ride",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Srinagar Dal Lake Shikara Ride. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Gulmarg Gondola Ride",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Gulmarg Gondola Ride. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Pahalgam Valley Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Pahalgam Valley Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Sonamarg Glaciers",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Sonamarg Glaciers. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Mughal Gardens Visit",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Mughal Gardens Visit. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Dal Lake Shikara Ride",
-            "Gulmarg Gondola",
-            "Pahalgam Betaab Valley",
-            "Sonamarg Glaciers",
-            "Mughal Gardens"
-        ],
-        "best_time": "March \u2013 August"
-    },
-    {
-        "slug": "mauritius",
-        "name": "Mauritius",
-        "hero_image": "https://images.unsplash.com/photo-1540202404-1b927e27fa8b?w=1600&q=80",
-        "price": "89,999",
-        "duration": "4N/5D",
-        "description": "The Complete Mauritius Experience \u2014 4N/5D tour package from \u20b989,999 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "North Island Tour & Port Louis",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for North Island Tour & Port Louis. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "South Island & Chamarel",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for South Island & Chamarel. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Ile Aux Cerfs Water Sports",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Ile Aux Cerfs Water Sports. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Chamarel Seven Coloured Earths",
-            "Ile aux Cerfs Island",
-            "Black River Gorges",
-            "Port Louis Central Market",
-            "Catamaran Cruise"
-        ],
-        "best_time": "May \u2013 December"
-    },
-    {
-        "slug": "europe",
-        "name": "Europe",
-        "hero_image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=80",
-        "price": "1,45,000",
-        "duration": "8N/9D",
-        "description": "The Complete Europe Experience \u2014 8N/9D tour package from \u20b91,45,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Paris City Tour & Eiffel Tower",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Paris City Tour & Eiffel Tower. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Swiss Alps & Jungfraujoch",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Swiss Alps & Jungfraujoch. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Rome Colosseum & Vatican",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Rome Colosseum & Vatican. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Venice Gondola Ride",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Venice Gondola Ride. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Amsterdam Canal Cruise",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Amsterdam Canal Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "London Eye & Thames",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for London Eye & Thames. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 8,
-                "title": "Rhine Falls Visit",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Rhine Falls Visit. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 9,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Eiffel Tower in Paris",
-            "Swiss Alps Excursion",
-            "Rome Colosseum",
-            "Venice Gondola Ride",
-            "Amsterdam Canals"
-        ],
-        "best_time": "May \u2013 September"
-    },
-    {
-        "slug": "greece",
-        "name": "Greece",
-        "hero_image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Greece Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Athens Acropolis Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Athens Acropolis Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Santorini Oia Sunset",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Santorini Oia Sunset. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Mykonos Beach Day",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Mykonos Beach Day. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Volcano & Hot Springs Cruise",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Volcano & Hot Springs Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Temple of Poseidon",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Temple of Poseidon. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "switzerland",
-        "name": "Switzerland",
-        "hero_image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=1600&q=80",
-        "price": "1,45,000",
-        "duration": "8N/9D",
-        "description": "The Complete Switzerland Experience \u2014 8N/9D tour package from \u20b91,45,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Zurich City Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Zurich City Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Mt. Titlis Cable Car",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Mt. Titlis Cable Car. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Interlaken Lakes",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Interlaken Lakes. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Lucerne Chapel Bridge",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Lucerne Chapel Bridge. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Glacier Express Journey",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Glacier Express Journey. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Geneva Jet d'Eau",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Geneva Jet d'Eau. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 8,
-                "title": "Zurich City Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Zurich City Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 9,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "russia",
-        "name": "Russia",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Russia Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Moscow Red Square",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Moscow Red Square. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Kremlin Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Kremlin Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "St. Petersburg Hermitage",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for St. Petersburg Hermitage. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Peterhof Palace",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Peterhof Palace. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Metro Stations Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Metro Stations Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "ladakh",
-        "name": "Ladakh",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Ladakh Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Leh Palace & Shanti Stupa",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Leh Palace & Shanti Stupa. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Pangong Lake Trip",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Pangong Lake Trip. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Nubra Valley & Khardung La",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Nubra Valley & Khardung La. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Magnetic Hill & Sangam",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Magnetic Hill & Sangam. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Hemis Monastery",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Hemis Monastery. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "himachal-pradesh",
-        "name": "Himachal Pradesh",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Himachal Pradesh Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Shimla Mall Road",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Shimla Mall Road. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Manali Rohtang Pass",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Manali Rohtang Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Solang Valley Adventure",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Solang Valley Adventure. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Dharamshala McLeod Ganj",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Dharamshala McLeod Ganj. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Dalhousie Khajjiar",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Dalhousie Khajjiar. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "uttarakhand",
-        "name": "Uttarakhand",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Uttarakhand Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Nainital Lake Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Nainital Lake Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Jim Corbett Safari",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Jim Corbett Safari. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Mussoorie Kempty Falls",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Mussoorie Kempty Falls. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Rishikesh Ganga Aarti",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Rishikesh Ganga Aarti. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Auli Ropeway",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Auli Ropeway. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "spiti",
-        "name": "Spiti",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Spiti Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Kaza Town Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Kaza Town Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Key Monastery",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Key Monastery. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Chandratal Lake",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Chandratal Lake. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Komic & Langza Villages",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Komic & Langza Villages. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Kunzum Pass",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Kunzum Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "rajasthan",
-        "name": "Rajasthan",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Rajasthan Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Jaipur Amber Fort",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Jaipur Amber Fort. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Udaipur Lake Pichola",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Udaipur Lake Pichola. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Jodhpur Mehrangarh",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Jodhpur Mehrangarh. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Jaisalmer Desert Safari",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Jaisalmer Desert Safari. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Pushkar Lake",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Pushkar Lake. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "meghalaya",
-        "name": "Meghalaya",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Meghalaya Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Shillong Peak & Ward's Lake",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Shillong Peak & Ward's Lake. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Cherrapunjee Waterfalls",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Cherrapunjee Waterfalls. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Dawki River Boat Ride",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Dawki River Boat Ride. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Mawlynnong Cleanest Village",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Mawlynnong Cleanest Village. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Living Root Bridges",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Living Root Bridges. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "sikkim",
-        "name": "Sikkim",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Sikkim Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Gangtok MG Marg",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Gangtok MG Marg. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Tsomgo Lake & Baba Mandir",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Tsomgo Lake & Baba Mandir. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Nathu La Pass",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Nathu La Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Pelling Pemayangtse Monastery",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Pelling Pemayangtse Monastery. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Ravangla Buddha Park",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Ravangla Buddha Park. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "andaman",
-        "name": "Andaman",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Andaman Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Port Blair Cellular Jail",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Port Blair Cellular Jail. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Havelock Radhanagar Beach",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Havelock Radhanagar Beach. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Neil Island Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Neil Island Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Ross Island Ruins",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Ross Island Ruins. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Elephant Beach Snorkeling",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Elephant Beach Snorkeling. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "kerala",
-        "name": "Kerala",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Kerala Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Munnar Tea Gardens",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Munnar Tea Gardens. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Alleppey Houseboat Cruise",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Alleppey Houseboat Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Thekkady Periyar Safari",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Thekkady Periyar Safari. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Kochi Chinese Fishing Nets",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Kochi Chinese Fishing Nets. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Kovalam Beach",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Kovalam Beach. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "goa",
-        "name": "Goa",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Goa Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "North Goa Beaches",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for North Goa Beaches. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "South Goa Temples & Churches",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for South Goa Temples & Churches. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Dudhsagar Waterfalls",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Dudhsagar Waterfalls. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Spice Plantation Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Spice Plantation Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Mandovi River Cruise",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Mandovi River Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "coorg",
-        "name": "Coorg",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Coorg Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Abbey Falls",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Abbey Falls. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Raja's Seat Sunset",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Raja's Seat Sunset. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Dubare Elephant Camp",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Dubare Elephant Camp. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Talakaveri",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Talakaveri. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Coffee Plantation Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Coffee Plantation Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "arunachal-pradesh",
-        "name": "Arunachal Pradesh",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Arunachal Pradesh Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Tawang Monastery",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Tawang Monastery. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Sela Pass",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Sela Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Bum La Pass",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Bum La Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Ziro Valley",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Ziro Valley. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Dirang Dzong",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Dirang Dzong. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "varanasi",
-        "name": "Varanasi",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Varanasi Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Ganga Aarti at Dashashwamedh",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Ganga Aarti at Dashashwamedh. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Kashi Vishwanath Temple",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Kashi Vishwanath Temple. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Sarnath Stupa",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Sarnath Stupa. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Morning Boat Ride",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Morning Boat Ride. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Ramnagar Fort",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Ramnagar Fort. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "odisha",
-        "name": "Odisha",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Odisha Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Puri Jagannath Temple",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Puri Jagannath Temple. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Konark Sun Temple",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Konark Sun Temple. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Chilika Lake Dolphins",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Chilika Lake Dolphins. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Bhubaneswar Lingaraj Temple",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Bhubaneswar Lingaraj Temple. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Udayagiri Caves",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Udayagiri Caves. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "October \u2013 March"
-    },
-    {
-        "slug": "vietnam",
-        "name": "Vietnam",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "45,500",
-        "duration": "5N/6D",
-        "description": "The Complete Vietnam Experience \u2014 5N/6D tour package from \u20b945,500 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Hanoi Old Quarter",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Hanoi Old Quarter. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Halong Bay Cruise",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Halong Bay Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Ho Chi Minh City Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Ho Chi Minh City Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Cu Chi Tunnels",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Cu Chi Tunnels. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "thailand",
-        "name": "Thailand",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "45,500",
-        "duration": "5N/6D",
-        "description": "The Complete Thailand Experience \u2014 5N/6D tour package from \u20b945,500 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Bangkok Grand Palace",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Bangkok Grand Palace. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Phuket Phi Phi Islands",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Phuket Phi Phi Islands. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Pattaya Coral Island",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Pattaya Coral Island. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Chiang Mai Temples",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Chiang Mai Temples. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Bangkok Grand Palace",
-            "Phuket Phi Phi Islands",
-            "Pattaya Coral Island",
-            "Chiang Mai Temples",
-            "Floating Markets"
-        ],
-        "best_time": "November \u2013 April"
-    },
-    {
-        "slug": "japan",
-        "name": "Japan",
-        "hero_image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&q=80",
-        "price": "1,45,000",
-        "duration": "8N/9D",
-        "description": "The Complete Japan Experience \u2014 8N/9D tour package from \u20b91,45,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Tokyo Skytree & Shibuya",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Tokyo Skytree & Shibuya. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Kyoto Temples & Shrines",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Kyoto Temples & Shrines. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Osaka Castle & Dotonbori",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Osaka Castle & Dotonbori. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Mt. Fuji & Hakone",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Mt. Fuji & Hakone. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Nara Deer Park",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Nara Deer Park. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Hiroshima Peace Park",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Hiroshima Peace Park. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 8,
-                "title": "Tokyo Skytree & Shibuya",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Tokyo Skytree & Shibuya. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 9,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "sri-lanka",
-        "name": "Sri Lanka",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "45,500",
-        "duration": "5N/6D",
-        "description": "The Complete Sri Lanka Experience \u2014 5N/6D tour package from \u20b945,500 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Colombo City Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Colombo City Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Kandy Temple of Tooth",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Kandy Temple of Tooth. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Sigiriya Rock Fortress",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Sigiriya Rock Fortress. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Nuwara Eliya Tea Gardens",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Nuwara Eliya Tea Gardens. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "philippines",
-        "name": "Philippines",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Philippines Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Manila City Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Manila City Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Boracay White Beach",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Boracay White Beach. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Palawan Underground River",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Palawan Underground River. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Cebu Whale Sharks",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Cebu Whale Sharks. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Bohol Chocolate Hills",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Bohol Chocolate Hills. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "singapore",
-        "name": "Singapore",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "45,500",
-        "duration": "5N/6D",
-        "description": "The Complete Singapore Experience \u2014 5N/6D tour package from \u20b945,500 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Gardens by the Bay",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Gardens by the Bay. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Marina Bay Sands",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Marina Bay Sands. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Sentosa Island",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Sentosa Island. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Universal Studios",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Universal Studios. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "malaysia",
-        "name": "Malaysia",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "45,500",
-        "duration": "5N/6D",
-        "description": "The Complete Malaysia Experience \u2014 5N/6D tour package from \u20b945,500 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Kuala Lumpur Petronas Towers",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Kuala Lumpur Petronas Towers. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Batu Caves",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Batu Caves. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Langkawi Cable Car",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Langkawi Cable Car. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Penang George Town",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Penang George Town. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "turkey",
-        "name": "Turkey",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Turkey Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Istanbul Hagia Sophia",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Istanbul Hagia Sophia. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Cappadocia Hot Air Balloon",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Cappadocia Hot Air Balloon. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Pamukkale Thermal Pools",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Pamukkale Thermal Pools. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Ephesus Ruins",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Ephesus Ruins. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Antalya Coastal Tour",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Antalya Coastal Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "georgia",
-        "name": "Georgia",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Georgia Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Tbilisi Old Town",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Tbilisi Old Town. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Kazbegi Mountains",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Kazbegi Mountains. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Mtskheta Ancient Capital",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Mtskheta Ancient Capital. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Signagi City of Love",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Signagi City of Love. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Uplistsikhe Cave Town",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Uplistsikhe Cave Town. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    },
-    {
-        "slug": "bhutan",
-        "name": "Bhutan",
-        "hero_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80",
-        "price": "25,000",
-        "duration": "6N/7D",
-        "description": "The Complete Bhutan Experience \u2014 6N/7D tour package from \u20b925,000 per person.",
-        "itinerary": [
-            {
-                "day": 1,
-                "title": "Arrival & Check-in",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-arrival",
-                "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
-            },
-            {
-                "day": 2,
-                "title": "Paro Taktsang (Tiger's Nest)",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Paro Taktsang (Tiger's Nest). Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 3,
-                "title": "Thimphu Buddha Dordenma",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Thimphu Buddha Dordenma. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 4,
-                "title": "Punakha Dzong",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Punakha Dzong. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 5,
-                "title": "Dochula Pass",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Dochula Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 6,
-                "title": "Phobjikha Valley",
-                "meta_1": "Sightseeing",
-                "icon_1": "fa-camera",
-                "description": "After a hearty breakfast, head out for Phobjikha Valley. Experience the local culture, take beautiful photos, and enjoy the guided tour."
-            },
-            {
-                "day": 7,
-                "title": "Departure",
-                "meta_1": "Airport Transfer",
-                "icon_1": "fa-plane-departure",
-                "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
-            }
-        ],
-        "highlights": [
-            "Stunning Natural Landscapes",
-            "Cultural & Heritage Sites",
-            "Local Cuisine & Dining",
-            "Guided City Tours",
-            "Leisure & Shopping",
-            "Comfortable Transfers"
-        ],
-        "best_time": "Varies by season"
-    }
+  {
+    "slug": "bali",
+    "name": "Bali",
+    "hero_image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1600&q=80",
+    "price": "45,500",
+    "duration": "5N/6D",
+    "description": "The Complete Bali Experience — 5N/6D tour package from ₹45,500 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Ubud Monkey Forest & Rice Terraces",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Ubud Monkey Forest & Rice Terraces. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Tanah Lot Temple Sunset",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Tanah Lot Temple Sunset. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Nusa Penida Island Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Nusa Penida Island Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Seminyak Beach Leisure",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Seminyak Beach Leisure. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Ubud Monkey Forest",
+      "Tanah Lot Temple Sunset",
+      "Nusa Penida Day Trip",
+      "Tegallalang Rice Terraces",
+      "Balinese Spa Experience"
+    ],
+    "best_time": "April – October"
+  },
+  {
+    "slug": "dubai",
+    "name": "Dubai",
+    "hero_image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1600&q=80",
+    "price": "45,500",
+    "duration": "5N/6D",
+    "description": "The Complete Dubai Experience — 5N/6D tour package from ₹45,500 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Desert Safari & BBQ Dinner",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Desert Safari & BBQ Dinner. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Burj Khalifa At The Top",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Burj Khalifa At The Top. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Dubai Mall & Aquarium",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Dubai Mall & Aquarium. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Dubai Marina Cruise",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Dubai Marina Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Desert Safari with BBQ",
+      "Burj Khalifa 124th Floor",
+      "Dubai Mall & Fountain Show",
+      "Marina Dhow Cruise",
+      "Gold Souk Shopping"
+    ],
+    "best_time": "November – March"
+  },
+  {
+    "slug": "maldives",
+    "name": "Maldives",
+    "hero_image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1600&q=80",
+    "price": "89,999",
+    "duration": "4N/5D",
+    "description": "The Complete Maldives Experience — 4N/5D tour package from ₹89,999 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Resort Check-in & Beach Leisure",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Resort Check-in & Beach Leisure. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Snorkeling & Water Sports",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Snorkeling & Water Sports. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Sunset Dolphin Cruise",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Sunset Dolphin Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Luxury Resort Stay",
+      "Snorkeling & Diving",
+      "Sunset Dolphin Cruise",
+      "Private Beach Dinner",
+      "Water Sports"
+    ],
+    "best_time": "November – April"
+  },
+  {
+    "slug": "kashmir",
+    "name": "Kashmir",
+    "hero_image": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Kashmir Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Srinagar Dal Lake Shikara Ride",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Srinagar Dal Lake Shikara Ride. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Gulmarg Gondola Ride",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Gulmarg Gondola Ride. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Pahalgam Valley Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Pahalgam Valley Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Sonamarg Glaciers",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Sonamarg Glaciers. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Mughal Gardens Visit",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Mughal Gardens Visit. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Dal Lake Shikara Ride",
+      "Gulmarg Gondola",
+      "Pahalgam Betaab Valley",
+      "Sonamarg Glaciers",
+      "Mughal Gardens"
+    ],
+    "best_time": "March – August"
+  },
+  {
+    "slug": "mauritius",
+    "name": "Mauritius",
+    "hero_image": "https://images.unsplash.com/photo-1540202404-1b927e27fa8b?w=1600&q=80",
+    "price": "89,999",
+    "duration": "4N/5D",
+    "description": "The Complete Mauritius Experience — 4N/5D tour package from ₹89,999 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "North Island Tour & Port Louis",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for North Island Tour & Port Louis. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "South Island & Chamarel",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for South Island & Chamarel. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Ile Aux Cerfs Water Sports",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Ile Aux Cerfs Water Sports. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Chamarel Seven Coloured Earths",
+      "Ile aux Cerfs Island",
+      "Black River Gorges",
+      "Port Louis Central Market",
+      "Catamaran Cruise"
+    ],
+    "best_time": "May – December"
+  },
+  {
+    "slug": "europe",
+    "name": "Europe",
+    "hero_image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=80",
+    "price": "1,45,000",
+    "duration": "8N/9D",
+    "description": "The Complete Europe Experience — 8N/9D tour package from ₹1,45,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Paris City Tour & Eiffel Tower",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Paris City Tour & Eiffel Tower. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Swiss Alps & Jungfraujoch",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Swiss Alps & Jungfraujoch. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Rome Colosseum & Vatican",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Rome Colosseum & Vatican. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Venice Gondola Ride",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Venice Gondola Ride. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Amsterdam Canal Cruise",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Amsterdam Canal Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "London Eye & Thames",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for London Eye & Thames. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 8,
+        "title": "Rhine Falls Visit",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Rhine Falls Visit. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 9,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Eiffel Tower in Paris",
+      "Swiss Alps Excursion",
+      "Rome Colosseum",
+      "Venice Gondola Ride",
+      "Amsterdam Canals"
+    ],
+    "best_time": "May – September"
+  },
+  {
+    "slug": "greece",
+    "name": "Greece",
+    "hero_image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Greece Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Athens Acropolis Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Athens Acropolis Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Santorini Oia Sunset",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Santorini Oia Sunset. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Mykonos Beach Day",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Mykonos Beach Day. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Volcano & Hot Springs Cruise",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Volcano & Hot Springs Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Temple of Poseidon",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Temple of Poseidon. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "switzerland",
+    "name": "Switzerland",
+    "hero_image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=1600&q=80",
+    "price": "1,45,000",
+    "duration": "8N/9D",
+    "description": "The Complete Switzerland Experience — 8N/9D tour package from ₹1,45,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Zurich City Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Zurich City Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Mt. Titlis Cable Car",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Mt. Titlis Cable Car. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Interlaken Lakes",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Interlaken Lakes. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Lucerne Chapel Bridge",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Lucerne Chapel Bridge. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Glacier Express Journey",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Glacier Express Journey. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Geneva Jet d'Eau",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Geneva Jet d'Eau. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 8,
+        "title": "Zurich City Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Zurich City Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 9,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "russia",
+    "name": "Russia",
+    "hero_image": "https://images.unsplash.com/photo-1513326738677-b964603b136d?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Russia Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Moscow Red Square",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Moscow Red Square. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Kremlin Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Kremlin Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "St. Petersburg Hermitage",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for St. Petersburg Hermitage. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Peterhof Palace",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Peterhof Palace. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Metro Stations Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Metro Stations Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "ladakh",
+    "name": "Ladakh",
+    "hero_image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Ladakh Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Leh Palace & Shanti Stupa",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Leh Palace & Shanti Stupa. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Pangong Lake Trip",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Pangong Lake Trip. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Nubra Valley & Khardung La",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Nubra Valley & Khardung La. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Magnetic Hill & Sangam",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Magnetic Hill & Sangam. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Hemis Monastery",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Hemis Monastery. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "himachal-pradesh",
+    "name": "Himachal Pradesh",
+    "hero_image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Himachal Pradesh Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Shimla Mall Road",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Shimla Mall Road. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Manali Rohtang Pass",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Manali Rohtang Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Solang Valley Adventure",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Solang Valley Adventure. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Dharamshala McLeod Ganj",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Dharamshala McLeod Ganj. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Dalhousie Khajjiar",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Dalhousie Khajjiar. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "uttarakhand",
+    "name": "Uttarakhand",
+    "hero_image": "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Uttarakhand Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Nainital Lake Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Nainital Lake Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Jim Corbett Safari",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Jim Corbett Safari. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Mussoorie Kempty Falls",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Mussoorie Kempty Falls. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Rishikesh Ganga Aarti",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Rishikesh Ganga Aarti. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Auli Ropeway",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Auli Ropeway. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "spiti",
+    "name": "Spiti",
+    "hero_image": "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Spiti Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Kaza Town Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Kaza Town Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Key Monastery",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Key Monastery. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Chandratal Lake",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Chandratal Lake. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Komic & Langza Villages",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Komic & Langza Villages. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Kunzum Pass",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Kunzum Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "rajasthan",
+    "name": "Rajasthan",
+    "hero_image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Rajasthan Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Jaipur Amber Fort",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Jaipur Amber Fort. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Udaipur Lake Pichola",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Udaipur Lake Pichola. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Jodhpur Mehrangarh",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Jodhpur Mehrangarh. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Jaisalmer Desert Safari",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Jaisalmer Desert Safari. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Pushkar Lake",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Pushkar Lake. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "meghalaya",
+    "name": "Meghalaya",
+    "hero_image": "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Meghalaya Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Shillong Peak & Ward's Lake",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Shillong Peak & Ward's Lake. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Cherrapunjee Waterfalls",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Cherrapunjee Waterfalls. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Dawki River Boat Ride",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Dawki River Boat Ride. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Mawlynnong Cleanest Village",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Mawlynnong Cleanest Village. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Living Root Bridges",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Living Root Bridges. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "sikkim",
+    "name": "Sikkim",
+    "hero_image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Sikkim Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Gangtok MG Marg",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Gangtok MG Marg. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Tsomgo Lake & Baba Mandir",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Tsomgo Lake & Baba Mandir. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Nathu La Pass",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Nathu La Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Pelling Pemayangtse Monastery",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Pelling Pemayangtse Monastery. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Ravangla Buddha Park",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Ravangla Buddha Park. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "andaman",
+    "name": "Andaman",
+    "hero_image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Andaman Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Port Blair Cellular Jail",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Port Blair Cellular Jail. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Havelock Radhanagar Beach",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Havelock Radhanagar Beach. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Neil Island Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Neil Island Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Ross Island Ruins",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Ross Island Ruins. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Elephant Beach Snorkeling",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Elephant Beach Snorkeling. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "kerala",
+    "name": "Kerala",
+    "hero_image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Kerala Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Munnar Tea Gardens",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Munnar Tea Gardens. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Alleppey Houseboat Cruise",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Alleppey Houseboat Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Thekkady Periyar Safari",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Thekkady Periyar Safari. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Kochi Chinese Fishing Nets",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Kochi Chinese Fishing Nets. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Kovalam Beach",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Kovalam Beach. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "goa",
+    "name": "Goa",
+    "hero_image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Goa Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "North Goa Beaches",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for North Goa Beaches. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "South Goa Temples & Churches",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for South Goa Temples & Churches. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Dudhsagar Waterfalls",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Dudhsagar Waterfalls. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Spice Plantation Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Spice Plantation Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Mandovi River Cruise",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Mandovi River Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "coorg",
+    "name": "Coorg",
+    "hero_image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Coorg Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Abbey Falls",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Abbey Falls. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Raja's Seat Sunset",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Raja's Seat Sunset. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Dubare Elephant Camp",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Dubare Elephant Camp. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Talakaveri",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Talakaveri. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Coffee Plantation Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Coffee Plantation Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "arunachal-pradesh",
+    "name": "Arunachal Pradesh",
+    "hero_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Arunachal Pradesh Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Tawang Monastery",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Tawang Monastery. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Sela Pass",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Sela Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Bum La Pass",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Bum La Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Ziro Valley",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Ziro Valley. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Dirang Dzong",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Dirang Dzong. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "varanasi",
+    "name": "Varanasi",
+    "hero_image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Varanasi Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Ganga Aarti at Dashashwamedh",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Ganga Aarti at Dashashwamedh. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Kashi Vishwanath Temple",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Kashi Vishwanath Temple. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Sarnath Stupa",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Sarnath Stupa. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Morning Boat Ride",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Morning Boat Ride. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Ramnagar Fort",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Ramnagar Fort. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "odisha",
+    "name": "Odisha",
+    "hero_image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Odisha Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Puri Jagannath Temple",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Puri Jagannath Temple. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Konark Sun Temple",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Konark Sun Temple. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Chilika Lake Dolphins",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Chilika Lake Dolphins. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Bhubaneswar Lingaraj Temple",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Bhubaneswar Lingaraj Temple. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Udayagiri Caves",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Udayagiri Caves. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "October – March"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "hero_image": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1600&q=80",
+    "price": "45,500",
+    "duration": "5N/6D",
+    "description": "The Complete Vietnam Experience — 5N/6D tour package from ₹45,500 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Hanoi Old Quarter",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Hanoi Old Quarter. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Halong Bay Cruise",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Halong Bay Cruise. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Ho Chi Minh City Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Ho Chi Minh City Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Cu Chi Tunnels",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Cu Chi Tunnels. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "hero_image": "https://images.unsplash.com/photo-1528181304800-259b08848526?w=1600&q=80",
+    "price": "45,500",
+    "duration": "5N/6D",
+    "description": "The Complete Thailand Experience — 5N/6D tour package from ₹45,500 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Bangkok Grand Palace",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Bangkok Grand Palace. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Phuket Phi Phi Islands",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Phuket Phi Phi Islands. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Pattaya Coral Island",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Pattaya Coral Island. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Chiang Mai Temples",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Chiang Mai Temples. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Bangkok Grand Palace",
+      "Phuket Phi Phi Islands",
+      "Pattaya Coral Island",
+      "Chiang Mai Temples",
+      "Floating Markets"
+    ],
+    "best_time": "November – April"
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "hero_image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1600&q=80",
+    "price": "1,45,000",
+    "duration": "8N/9D",
+    "description": "The Complete Japan Experience — 8N/9D tour package from ₹1,45,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Tokyo Skytree & Shibuya",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Tokyo Skytree & Shibuya. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Kyoto Temples & Shrines",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Kyoto Temples & Shrines. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Osaka Castle & Dotonbori",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Osaka Castle & Dotonbori. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Mt. Fuji & Hakone",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Mt. Fuji & Hakone. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Nara Deer Park",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Nara Deer Park. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Hiroshima Peace Park",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Hiroshima Peace Park. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 8,
+        "title": "Tokyo Skytree & Shibuya",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Tokyo Skytree & Shibuya. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 9,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "hero_image": "https://images.unsplash.com/photo-1586523969098-a8b8a5a3d2e1?w=1600&q=80",
+    "price": "45,500",
+    "duration": "5N/6D",
+    "description": "The Complete Sri Lanka Experience — 5N/6D tour package from ₹45,500 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Colombo City Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Colombo City Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Kandy Temple of Tooth",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Kandy Temple of Tooth. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Sigiriya Rock Fortress",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Sigiriya Rock Fortress. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Nuwara Eliya Tea Gardens",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Nuwara Eliya Tea Gardens. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "philippines",
+    "name": "Philippines",
+    "hero_image": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Philippines Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Manila City Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Manila City Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Boracay White Beach",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Boracay White Beach. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Palawan Underground River",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Palawan Underground River. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Cebu Whale Sharks",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Cebu Whale Sharks. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Bohol Chocolate Hills",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Bohol Chocolate Hills. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "hero_image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1600&q=80",
+    "price": "45,500",
+    "duration": "5N/6D",
+    "description": "The Complete Singapore Experience — 5N/6D tour package from ₹45,500 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Gardens by the Bay",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Gardens by the Bay. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Marina Bay Sands",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Marina Bay Sands. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Sentosa Island",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Sentosa Island. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Universal Studios",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Universal Studios. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "hero_image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1600&q=80",
+    "price": "45,500",
+    "duration": "5N/6D",
+    "description": "The Complete Malaysia Experience — 5N/6D tour package from ₹45,500 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Kuala Lumpur Petronas Towers",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Kuala Lumpur Petronas Towers. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Batu Caves",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Batu Caves. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Langkawi Cable Car",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Langkawi Cable Car. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Penang George Town",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Penang George Town. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "turkey",
+    "name": "Turkey",
+    "hero_image": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Turkey Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Istanbul Hagia Sophia",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Istanbul Hagia Sophia. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Cappadocia Hot Air Balloon",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Cappadocia Hot Air Balloon. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Pamukkale Thermal Pools",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Pamukkale Thermal Pools. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Ephesus Ruins",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Ephesus Ruins. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Antalya Coastal Tour",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Antalya Coastal Tour. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "georgia",
+    "name": "Georgia",
+    "hero_image": "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Georgia Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Tbilisi Old Town",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Tbilisi Old Town. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Kazbegi Mountains",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Kazbegi Mountains. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Mtskheta Ancient Capital",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Mtskheta Ancient Capital. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Signagi City of Love",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Signagi City of Love. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Uplistsikhe Cave Town",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Uplistsikhe Cave Town. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  },
+  {
+    "slug": "bhutan",
+    "name": "Bhutan",
+    "hero_image": "https://images.unsplash.com/photo-1553856622-d1b352e24a45?w=1600&q=80",
+    "price": "25,000",
+    "duration": "6N/7D",
+    "description": "The Complete Bhutan Experience — 6N/7D tour package from ₹25,000 per person.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Check-in",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-arrival",
+        "description": "Arrive at the destination. Transfer to your pre-booked hotel. Spend the rest of the day relaxing and acclimating to the new surroundings."
+      },
+      {
+        "day": 2,
+        "title": "Paro Taktsang (Tiger's Nest)",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Paro Taktsang (Tiger's Nest). Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 3,
+        "title": "Thimphu Buddha Dordenma",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Thimphu Buddha Dordenma. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 4,
+        "title": "Punakha Dzong",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Punakha Dzong. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 5,
+        "title": "Dochula Pass",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Dochula Pass. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 6,
+        "title": "Phobjikha Valley",
+        "meta_1": "Sightseeing",
+        "icon_1": "fa-camera",
+        "description": "After a hearty breakfast, head out for Phobjikha Valley. Experience the local culture, take beautiful photos, and enjoy the guided tour."
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "meta_1": "Airport Transfer",
+        "icon_1": "fa-plane-departure",
+        "description": "Enjoy your final breakfast. Check out from the hotel and transfer to the airport for your onward journey with wonderful memories."
+      }
+    ],
+    "highlights": [
+      "Stunning Natural Landscapes",
+      "Cultural & Heritage Sites",
+      "Local Cuisine & Dining",
+      "Guided City Tours",
+      "Leisure & Shopping",
+      "Comfortable Transfers"
+    ],
+    "best_time": "Varies by season"
+  }
 ]

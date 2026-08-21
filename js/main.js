@@ -49,6 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initTrendingPackages();
   initScrollReveal();
   initCallbackModal();
+  initCounterAnimation();
+  initTypingEffect();
 });
 
 
@@ -285,6 +287,7 @@ function initScrollReveal() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
+        entry.target.classList.add('active');
         observer.unobserve(entry.target);
       }
     });
@@ -294,6 +297,67 @@ function initScrollReveal() {
   });
 
   reveals.forEach(el => observer.observe(el));
+}
+
+
+// ── Counter Animation for Trust Bar ──
+function initCounterAnimation() {
+  const counters = document.querySelectorAll('.trust-item__number');
+  if (!counters.length) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  counters.forEach(el => observer.observe(el));
+}
+
+function animateCounter(el) {
+  const text = el.textContent;
+  const match = text.match(/(\d[\d,]*)(\+?)/);
+  if (!match) return;
+
+  const target = parseInt(match[1].replace(/,/g, ''));
+  const suffix = match[2] || '';
+  const rest = text.replace(match[0], '{{NUM}}');
+  const duration = 1800;
+  const start = performance.now();
+
+  function update(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+    const current = Math.round(target * eased);
+    el.textContent = rest.replace('{{NUM}}', current.toLocaleString('en-IN') + suffix);
+    if (progress < 1) requestAnimationFrame(update);
+  }
+
+  requestAnimationFrame(update);
+}
+
+
+// ── Typing Effect for Hero ──
+function initTypingEffect() {
+  const subtitleEl = document.getElementById('heroSubtitle');
+  if (!subtitleEl) return;
+
+  const phrases = [
+    'Island of the Gods — from ₹22,576 per person',
+    'City of Dreams — from ₹15,302 per person',
+    'Land of Emerald Waters — from ₹32,743 per person',
+    'Paradise on Earth — from ₹16,134 per person',
+    'Pearl of the Indian Ocean — from ₹72,250 per person'
+  ];
+
+  // Add cursor span
+  const cursor = document.createElement('span');
+  cursor.className = 'typing-cursor';
+  subtitleEl.appendChild(cursor);
 }
 
 
