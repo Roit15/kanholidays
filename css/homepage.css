@@ -1059,33 +1059,3 @@
   transform: rotate(-15deg);
   pointer-events: none;
 }
-
-/* ── TEAM SECTION ── */
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: var(--space-xl);
-}
-
-.team-card {
-  text-align: center;
-}
-
-.team-card__img {
-  width: 100%;
-  aspect-ratio: 1;
-  border-radius: var(--radius-lg);
-  object-fit: cover;
-  margin-bottom: var(--space-md);
-  box-shadow: var(--shadow-md);
-}
-
-.team-card__name {
-  font-weight: 700;
-  font-size: var(--text-lg);
-}
-
-.team-card__role {
-  color: var(--color-primary);
-  font-size: var(--text-sm);
-}
