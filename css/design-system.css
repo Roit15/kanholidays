@@ -94,14 +94,18 @@
   --shadow-glow: 0 0 24px rgba(232,114,12,0.25);
   --shadow-card-hover: 0 12px 40px rgba(27,45,69,0.14);
 
-  /* Transitions */
-  --ease-out: cubic-bezier(0.33, 1, 0.68, 1);
-  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
-  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  /* Transitions — Emil Kowalski animation philosophy */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);          /* strong ease-out for UI entrances/exits */
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);      /* strong ease-in-out for on-screen movement */
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);       /* iOS-like drawer curve */
+  --ease-hover: ease;                                    /* hover/color changes */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);    /* spring-like overshoot */
+  --duration-press: 120ms;
   --duration-fast: 150ms;
-  --duration-normal: 300ms;
-  --duration-slow: 500ms;
-  --duration-slower: 800ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+  --duration-slower: 600ms;
+  --stagger-delay: 50ms;
 
   /* Z-index scale */
   --z-base: 0;
@@ -353,7 +357,11 @@ ul, ol {
   border: 2px solid transparent;
   border-radius: var(--radius-pill);
   cursor: pointer;
-  transition: background-color var(--duration-normal) var(--ease-out), color var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), opacity var(--duration-normal) var(--ease-out), margin var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out);
+  transition: transform var(--duration-press) var(--ease-out),
+              box-shadow var(--duration-normal) var(--ease-out),
+              background-color var(--duration-fast) var(--ease-hover),
+              color var(--duration-fast) var(--ease-hover),
+              border-color var(--duration-fast) var(--ease-hover);
   text-decoration: none;
   white-space: nowrap;
   position: relative;
@@ -476,7 +484,9 @@ ul, ol {
   background: var(--color-bg-card);
   border-radius: var(--radius-lg);
   overflow: hidden;
-  transition: background-color var(--duration-normal) var(--ease-out), color var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), opacity var(--duration-normal) var(--ease-out), margin var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out);
+  transition: transform var(--duration-normal) var(--ease-out),
+              box-shadow var(--duration-normal) var(--ease-out),
+              border-color var(--duration-fast) var(--ease-hover);
   border: 1px solid var(--color-border-light);
 }
 
@@ -531,7 +541,9 @@ ul, ol {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
+  transition: transform var(--duration-press) var(--ease-out),
+              background-color var(--duration-fast) var(--ease-hover),
+              color var(--duration-fast) var(--ease-hover);
   z-index: 2;
   color: var(--color-text-light);
   font-size: 1rem;
@@ -739,7 +751,8 @@ ul, ol {
   border: none;
   border-bottom: 2px solid transparent;
   cursor: pointer;
-  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
+  transition: color var(--duration-fast) var(--ease-hover),
+              border-color var(--duration-fast) var(--ease-hover);
   white-space: nowrap;
   margin-bottom: -2px;
 }
@@ -817,9 +830,9 @@ ul, ol {
 /* ── Scroll Reveal Animation ── */
 .reveal {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity var(--duration-slower) var(--ease-out),
-              transform var(--duration-slower) var(--ease-out);
+  transform: translateY(20px);
+  transition: opacity var(--duration-slow) var(--ease-out),
+              transform var(--duration-slow) var(--ease-out);
 }
 
 .reveal.visible {
@@ -829,9 +842,9 @@ ul, ol {
 
 .reveal-left {
   opacity: 0;
-  transform: translateX(-40px);
-  transition: opacity var(--duration-slower) var(--ease-out),
-              transform var(--duration-slower) var(--ease-out);
+  transform: translateX(-30px);
+  transition: opacity var(--duration-slow) var(--ease-out),
+              transform var(--duration-slow) var(--ease-out);
 }
 
 .reveal-left.visible {
@@ -841,9 +854,9 @@ ul, ol {
 
 .reveal-right {
   opacity: 0;
-  transform: translateX(40px);
-  transition: opacity var(--duration-slower) var(--ease-out),
-              transform var(--duration-slower) var(--ease-out);
+  transform: translateX(30px);
+  transition: opacity var(--duration-slow) var(--ease-out),
+              transform var(--duration-slow) var(--ease-out);
 }
 
 .reveal-right.visible {
@@ -853,9 +866,9 @@ ul, ol {
 
 .reveal-scale {
   opacity: 0;
-  transform: scale(0.9);
-  transition: opacity var(--duration-slower) var(--ease-out),
-              transform var(--duration-slower) var(--ease-out);
+  transform: scale(0.95);
+  transition: opacity var(--duration-slow) var(--ease-out),
+              transform var(--duration-slow) var(--ease-out);
 }
 
 .reveal-scale.visible {
@@ -863,8 +876,18 @@ ul, ol {
   transform: scale(1);
 }
 
-/* Stagger children */
-.stagger > * { transition-delay: calc(var(--i, 0) * 100ms); }
+/* Clip-path reveal — wipe from bottom */
+.reveal-clip {
+  clip-path: inset(100% 0 0 0);
+  transition: clip-path var(--duration-slower) var(--ease-in-out);
+}
+
+.reveal-clip.visible {
+  clip-path: inset(0 0 0 0);
+}
+
+/* Stagger children — 50ms between items */
+.stagger > * { transition-delay: calc(var(--i, 0) * var(--stagger-delay)); }
 
 /* ── Skeleton Loading ── */
 .skeleton {
@@ -977,15 +1000,59 @@ ul, ol {
   border: 0;
 }
 
-/* ── Reduced Motion ── */
+/* ── Reduced Motion — gentler, not zero ── */
 @media (prefers-reduced-motion: reduce) {
+  /* Keep opacity/color transitions for comprehension, drop movement */
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
+    animation-duration: 0.2s !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
+    transition-duration: 0.2s !important;
     scroll-behavior: auto !important;
+  }
+
+  /* Drop all transform-based motion */
+  .reveal,
+  .reveal-left,
+  .reveal-right,
+  .reveal-scale,
+  .reveal-clip {
+    opacity: 0;
+    transform: none !important;
+    clip-path: none !important;
+    transition: opacity 0.2s ease !important;
+  }
+
+  .reveal.visible,
+  .reveal-left.visible,
+  .reveal-right.visible,
+  .reveal-scale.visible,
+  .reveal-clip.visible {
+    opacity: 1;
+  }
+
+  /* Kill ambient loops and bounces */
+  .whatsapp-btn,
+  .hero-slide__image {
+    animation: none !important;
+  }
+}
+
+/* ── Hover Gating — prevent false hovers on touch ── */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: transparent;
+  }
+
+  .card:hover .card__image img {
+    transform: scale(1.04);
+  }
+
+  .bento-item:hover .bento-item__image {
+    transform: scale(1.06);
   }
 }
 

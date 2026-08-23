@@ -11,7 +11,10 @@
   right: 0;
   z-index: var(--z-sticky);
   background: var(--color-white);
-  transition: background-color var(--duration-normal) var(--ease-out), color var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), opacity var(--duration-normal) var(--ease-out), margin var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out);
+  transition: background-color var(--duration-normal) var(--ease-out),
+              box-shadow var(--duration-normal) var(--ease-out),
+              border-color var(--duration-fast) var(--ease-hover),
+              backdrop-filter var(--duration-normal) var(--ease-out);
   border-bottom: 1px solid transparent;
 }
 
@@ -93,26 +96,39 @@
   transform: rotate(180deg);
 }
 
-/* Mega Menu */
+/* Mega Menu — origin-aware animation */
 .mega-menu {
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) scale(0.97);
+  transform-origin: top center;
   background: var(--color-white);
   border-radius: 0 0 var(--radius-lg) var(--radius-lg);
   box-shadow: var(--shadow-xl);
   padding: var(--space-xl);
-  display: none;
   min-width: 500px;
   max-width: 700px;
   border-top: 3px solid var(--color-primary);
   z-index: var(--z-dropdown);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity var(--duration-fast) var(--ease-out),
+              transform var(--duration-fast) var(--ease-out),
+              visibility 0s linear var(--duration-fast);
 }
 
 .nav-item:hover .mega-menu {
   display: flex;
   gap: var(--space-2xl);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) scale(1);
+  transition: opacity var(--duration-fast) var(--ease-out),
+              transform var(--duration-fast) var(--ease-out),
+              visibility 0s;
 }
 
 .mega-col {
@@ -142,7 +158,8 @@
   font-size: var(--text-sm);
   color: var(--color-text-body);
   font-weight: 500;
-  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
+  transition: color var(--duration-fast) var(--ease-hover),
+              padding-left var(--duration-fast) var(--ease-out);
 }
 
 .mega-col a:hover {
@@ -167,7 +184,9 @@
   padding: 0.5rem 1rem;
   border-radius: var(--radius-pill);
   border: 1.5px solid var(--color-border);
-  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
+  transition: border-color var(--duration-fast) var(--ease-hover),
+              color var(--duration-fast) var(--ease-hover),
+              background-color var(--duration-fast) var(--ease-hover);
 }
 
 .header-phone:hover {
@@ -198,7 +217,8 @@
   height: 2px;
   background: var(--color-text-dark);
   border-radius: 2px;
-  transition: background-color var(--duration-normal) var(--ease-out), color var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), opacity var(--duration-normal) var(--ease-out), margin var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out);
+  transition: transform var(--duration-normal) var(--ease-out),
+              opacity var(--duration-normal) var(--ease-out);
 }
 
 .mobile-toggle.active span:nth-child(1) {
@@ -221,15 +241,18 @@
   z-index: var(--z-overlay);
   opacity: 0;
   visibility: hidden;
-  transition: background-color var(--duration-normal), color var(--duration-normal), border-color var(--duration-normal), box-shadow var(--duration-normal), transform var(--duration-normal), opacity var(--duration-normal), margin var(--duration-normal), padding var(--duration-normal);
+  transition: opacity var(--duration-normal) var(--ease-out),
+              visibility 0s linear var(--duration-normal);
 }
 
 .mobile-nav-overlay.active {
   opacity: 1;
   visibility: visible;
+  transition: opacity var(--duration-normal) var(--ease-out),
+              visibility 0s;
 }
 
-/* Mobile Slide Menu */
+/* Mobile Slide Menu — iOS-style drawer */
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -239,13 +262,15 @@
   background: var(--color-white);
   z-index: calc(var(--z-overlay) + 5);
   transform: translateX(100%);
-  transition: transform var(--duration-normal) var(--ease-out);
+  transition: transform var(--duration-slow) var(--ease-drawer);
   overflow-y: auto;
   padding: calc(var(--header-height) + var(--space-lg)) var(--space-lg) var(--space-lg);
+  box-shadow: -8px 0 32px rgba(0,0,0,0);
 }
 
 .mobile-menu.active {
   transform: translateX(0);
+  box-shadow: -8px 0 32px rgba(0,0,0,0.15);
 }
 
 .mobile-menu .nav-link {
@@ -334,7 +359,9 @@ body {
   border-radius: var(--radius-circle);
   background: rgba(255,255,255,0.08);
   color: rgba(255,255,255,0.7);
-  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
+  transition: background-color var(--duration-fast) var(--ease-hover),
+              color var(--duration-fast) var(--ease-hover),
+              transform var(--duration-press) var(--ease-out);
   font-size: 1rem;
 }
 
@@ -361,7 +388,8 @@ body {
 .footer-links a {
   font-size: var(--text-sm);
   color: rgba(255,255,255,0.6);
-  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
+  transition: color var(--duration-fast) var(--ease-hover),
+              padding-left var(--duration-fast) var(--ease-out);
   display: inline-flex;
   align-items: center;
   gap: var(--space-xs);
@@ -454,7 +482,8 @@ body {
   white-space: nowrap;
   opacity: 0;
   transform: translateY(8px);
-  transition: background-color var(--duration-normal) var(--ease-out), color var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), opacity var(--duration-normal) var(--ease-out), margin var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out);
+  transition: opacity var(--duration-fast) var(--ease-out),
+              transform var(--duration-fast) var(--ease-out);
   pointer-events: none;
 }
 
@@ -475,7 +504,8 @@ body {
   font-size: 1.8rem;
   box-shadow: 0 4px 20px rgba(37,211,102,0.4);
   cursor: pointer;
-  transition: background-color var(--duration-normal) var(--ease-out), color var(--duration-normal) var(--ease-out), border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), opacity var(--duration-normal) var(--ease-out), margin var(--duration-normal) var(--ease-out), padding var(--duration-normal) var(--ease-out);
+  transition: transform var(--duration-press) var(--ease-out),
+              box-shadow var(--duration-normal) var(--ease-out);
   border: none;
   animation: whatsapp-pulse 2s ease-in-out infinite;
 }
@@ -575,12 +605,17 @@ body {
   padding: var(--space-lg);
   opacity: 0;
   visibility: hidden;
-  transition: background-color var(--duration-normal), color var(--duration-normal), border-color var(--duration-normal), box-shadow var(--duration-normal), transform var(--duration-normal), opacity var(--duration-normal), margin var(--duration-normal), padding var(--duration-normal);
+  transition: opacity var(--duration-normal) var(--ease-out),
+              backdrop-filter var(--duration-normal) var(--ease-out),
+              visibility 0s linear var(--duration-normal);
 }
 
 .modal-overlay.active {
   opacity: 1;
   visibility: visible;
+  transition: opacity var(--duration-normal) var(--ease-out),
+              backdrop-filter var(--duration-normal) var(--ease-out),
+              visibility 0s;
 }
 
 .modal {
@@ -590,8 +625,8 @@ body {
   width: 100%;
   max-height: 90vh;
   overflow-y: auto;
-  transform: translateY(24px) scale(0.96);
-  transition: transform var(--duration-normal) var(--ease-spring);
+  transform: translateY(20px) scale(0.97);
+  transition: transform var(--duration-normal) var(--ease-out);
   box-shadow: var(--shadow-2xl);
 }
 
@@ -622,7 +657,13 @@ body {
   justify-content: center;
   color: var(--color-text-light);
   font-size: 1.1rem;
-  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
+  transition: background-color var(--duration-fast) var(--ease-hover),
+              color var(--duration-fast) var(--ease-hover),
+              transform var(--duration-press) var(--ease-out);
+}
+
+.modal-close:active {
+  transform: scale(0.95);
 }
 
 .modal-close:hover {
@@ -661,12 +702,15 @@ body {
   padding-top: 15vh;
   opacity: 0;
   visibility: hidden;
-  transition: background-color var(--duration-normal), color var(--duration-normal), border-color var(--duration-normal), box-shadow var(--duration-normal), transform var(--duration-normal), opacity var(--duration-normal), margin var(--duration-normal), padding var(--duration-normal);
+  transition: opacity var(--duration-normal) var(--ease-out),
+              visibility 0s linear var(--duration-normal);
 }
 
 .search-overlay.active {
   opacity: 1;
   visibility: visible;
+  transition: opacity var(--duration-normal) var(--ease-out),
+              visibility 0s;
 }
 
 .search-overlay__close {
@@ -752,7 +796,9 @@ body {
   color: var(--color-text-body);
   border: 1px solid var(--color-border-light);
   cursor: pointer;
-  transition: background-color var(--duration-fast), color var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast), transform var(--duration-fast), opacity var(--duration-fast), margin var(--duration-fast), padding var(--duration-fast);
+  transition: border-color var(--duration-fast) var(--ease-hover),
+              color var(--duration-fast) var(--ease-hover),
+              background-color var(--duration-fast) var(--ease-hover);
 }
 
 .search-pill:hover {

@@ -44,7 +44,7 @@ def generate_itinerary(dest_slug, duration_str):
     # Parse duration e.g., "5N/6D" -> 6 days
     try:
         days = int(duration_str.split('/')[1].replace('D', ''))
-    except:
+    except (IndexError, ValueError, AttributeError):
         days = 5
         
     activities = highlights.get(dest_slug, generic_activities)

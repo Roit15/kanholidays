@@ -1,0 +1,81 @@
+{
+  "mcpServers": {
+    "hostinger-hosting": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package=hostinger-api-mcp@latest",
+        "hostinger-hosting-mcp"
+      ],
+      "env": {
+        "HOSTINGER_API_TOKEN": "wQyGnkVYxuul5Lth9jMzdz3HdxgQzdatExkQifsE11a2ff1e"
+      }
+    },
+    "hostinger-domains": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package=hostinger-api-mcp@latest",
+        "hostinger-domains-mcp"
+      ],
+      "env": {
+        "HOSTINGER_API_TOKEN": "wQyGnkVYxuul5Lth9jMzdz3HdxgQzdatExkQifsE11a2ff1e"
+      }
+    },
+    "hostinger-dns": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package=hostinger-api-mcp@latest",
+        "hostinger-dns-mcp"
+      ],
+      "env": {
+        "HOSTINGER_API_TOKEN": "wQyGnkVYxuul5Lth9jMzdz3HdxgQzdatExkQifsE11a2ff1e"
+      }
+    },
+    "hostinger-billing": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package=hostinger-api-mcp@latest",
+        "hostinger-billing-mcp"
+      ],
+      "env": {
+        "HOSTINGER_API_TOKEN": "wQyGnkVYxuul5Lth9jMzdz3HdxgQzdatExkQifsE11a2ff1e"
+      }
+    },
+    "hostinger-reach": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package=hostinger-api-mcp@latest",
+        "hostinger-reach-mcp"
+      ],
+      "env": {
+        "HOSTINGER_API_TOKEN": "wQyGnkVYxuul5Lth9jMzdz3HdxgQzdatExkQifsE11a2ff1e"
+      }
+    },
+    "hostinger-vps": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package=hostinger-api-mcp@latest",
+        "hostinger-vps-mcp"
+      ],
+      "env": {
+        "HOSTINGER_API_TOKEN": "wQyGnkVYxuul5Lth9jMzdz3HdxgQzdatExkQifsE11a2ff1e"
+      }
+    },
+    "hostinger-ecommerce": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package=hostinger-api-mcp@latest",
+        "hostinger-ecommerce-mcp"
+      ],
+      "env": {
+        "HOSTINGER_API_TOKEN": "wQyGnkVYxuul5Lth9jMzdz3HdxgQzdatExkQifsE11a2ff1e"
+      }
+    }
+  }
+}

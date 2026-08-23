@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Complete Mauritius Experience — 9N/10D | KanHolidays</title>
-  <meta name="description" content="9 Nights 10 Days Mauritius tour package from ₹99,625 per person. Includes Grand Baie, Chamarel, Le Morne, Ile aux Cerfs, Port Louis. Hotel + Transfers + Sightseeing. Book Now!">
+  <title>The Complete {{ dest.name }} Experience — {{ dest.duration }} | KanHolidays</title>
+  <meta name="description" content="{{ nights }} Nights {{ days }} Days {{ dest.name }} tour package from ₹{{ dest.price }} per person. Includes Grand Baie, Chamarel, Le Morne, Ile aux Cerfs, Port Louis. Hotel + Transfers + Sightseeing. Book Now!">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
-  <link rel="preload" as="image" href="https://kanholidays.com/storage/packages/UlyvqXb5RyM78ywNx8t4CqSdvQUKE99LYKf9nxzt.png">
+  <link rel="preload" as="image" href="{{ dest.hero_image }}">
 
   <link rel="stylesheet" href="/css/design-system.css">
   <link rel="stylesheet" href="/css/components.css">
@@ -52,7 +52,7 @@
               <ul>
                 <li><a href="/destinations/dubai">🌆 Dubai</a></li>
                 <li><a href="/destinations/maldives">💎 Maldives</a></li>
-                <li><a href="/destinations/mauritius">🌺 Mauritius</a></li>
+                <li><a href="/destinations/mauritius">🌺 {{ dest.name }}</a></li>
                 <li><a href="/destinations/turkey">🕌 Turkey</a></li>
                 <li><a href="/destinations/georgia">⛰ Georgia</a></li>
                 <li><a href="/destinations/bhutan">🏔 Bhutan</a></li>
@@ -116,7 +116,7 @@
               <ul>
                 <li><a href="/destinations/maldives">💕 Maldives</a></li>
                 <li><a href="/destinations/bali">💕 Bali</a></li>
-                <li><a href="/destinations/mauritius">💕 Mauritius</a></li>
+                <li><a href="/destinations/mauritius">💕 {{ dest.name }}</a></li>
                 <li><a href="/destinations/europe">💕 Europe</a></li>
                 <li><a href="/destinations/kashmir">💕 Kashmir</a></li>
                 <li><a href="/destinations/vietnam">💕 Vietnam</a></li>
@@ -195,7 +195,7 @@
       <a href="/destinations/maldives" class="search-pill">💎 Maldives</a>
       <a href="/destinations/kashmir" class="search-pill">❄ Kashmir</a>
       <a href="/destinations/vietnam" class="search-pill">🌿 Vietnam</a>
-      <a href="/destinations/mauritius" class="search-pill">🌺 Mauritius</a>
+      <a href="/destinations/mauritius" class="search-pill">🌺 {{ dest.name }}</a>
       <a href="/destinations/ladakh" class="search-pill">🏔 Ladakh</a>
       <a href="/destinations/goa" class="search-pill">🏖 Goa</a>
       <a href="/destinations/europe" class="search-pill">🇪🇺 Europe</a>
@@ -214,30 +214,30 @@
     <!-- Breadcrumb -->
     <div class="pkg-breadcrumb">
       <a href="/">Home</a> <span>›</span>
-      <a href="/destinations/mauritius">Mauritius</a> <span>›</span>
-      <span>The Complete Mauritius Experience</span>
+      <a href="/destinations/mauritius">{{ dest.name }}</a> <span>›</span>
+      <span>The Complete {{ dest.name }} Experience</span>
     </div>
 
     <!-- Photo Gallery -->
     <div class="pkg-gallery">
       <div class="pkg-gallery__main">
-        <img src="https://kanholidays.com/storage/packages/UlyvqXb5RyM78ywNx8t4CqSdvQUKE99LYKf9nxzt.png" alt="The Complete Mauritius Experience" width="800" height="500">
+        <img src="{{ dest.hero_image }}" alt="The Complete {{ dest.name }} Experience" width="800" height="500">
       </div>
       <div class="pkg-gallery__thumb">
-        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Mauritius Beach view" width="400" height="250" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="{{ dest.name }} Beach view" width="400" height="250" loading="lazy">
       </div>
       <div class="pkg-gallery__thumb" style="position:relative">
-        <img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=800&q=80" alt="Mauritius Underwater scene" width="400" height="250" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=800&q=80" alt="{{ dest.name }} Underwater scene" width="400" height="250" loading="lazy">
         <div class="pkg-gallery__more"><i class="fas fa-camera" aria-hidden="true" style="margin-right:6px"></i> 10+ Photos</div>
       </div>
     </div>
 
     <!-- Package Header -->
     <div class="pkg-header">
-      <h1 class="pkg-header__title">The Complete Mauritius Experience</h1>
+      <h1 class="pkg-header__title">The Complete {{ dest.name }} Experience</h1>
       <div class="pkg-header__meta">
         <span class="pkg-meta-item pkg-meta-rating"><i class="fas fa-star" aria-hidden="true"></i> 4.8 (45 reviews)</span>
-        <span class="pkg-meta-item"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mauritius</span>
+        <span class="pkg-meta-item"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ dest.name }}</span>
         <span class="pkg-meta-item"><i class="fas fa-clock" aria-hidden="true"></i> 9 Nights / 10 Days</span>
         <span class="pkg-meta-item"><i class="fas fa-users" aria-hidden="true"></i> Family / Couple / Group</span>
       </div>
@@ -245,7 +245,7 @@
         <button class="btn btn--outline btn--sm"><i class="fas fa-share-alt" aria-hidden="true"></i> Share</button>
         <button class="btn btn--outline btn--sm" onclick="window.print()"><i class="fas fa-download" aria-hidden="true"></i> Download PDF</button>
         <button class="btn btn--outline btn--sm"><i class="far fa-heart" aria-hidden="true"></i> Save</button>
-        <a href="https://wa.me/919311957339?text=Hi!%20I'm%20interested%20in%20The%20Complete%20Mauritius%20Experience" target="_blank" class="btn btn--whatsapp btn--sm"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+        <a href="https://wa.me/919311957339?text=Hi!%20I'm%20interested%20in%20The%20Complete%20{{ dest.name }}%20Experience" target="_blank" class="btn btn--whatsapp btn--sm"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
       </div>
     </div>
   </div>
@@ -289,18 +289,20 @@
             <span class="pkg-highlight"><i class="fas fa-parking" aria-hidden="true"></i> All Toll & Parking</span>
           </div>
 
-          <p>Some islands can be seen in a few days, Mauritius deserves to be felt over many. Over these ten days, you move through every mood the island has to offer: vibrant northern beaches, dramatic southern cliffs, misty nature reserves, colonial-era city streets, and quiet stretches of untouched coastline, each adding another layer to the story.</p>
-          <p>It's a journey that doesn't rush from one highlight to the next, but instead lets you live inside the island's rhythm fully, day after unhurried day. With the KanHolidays 9 Nights 10 Days Mauritius Package, you get the complete Mauritius experience with comfortable stays, thoughtfully paced days, and a journey that leaves no side of this island jewel unexplored.</p>
+          <p>Some islands can be seen in a few days, {{ dest.name }} deserves to be felt over many. Over these ten days, you move through every mood the island has to offer: vibrant northern beaches, dramatic southern cliffs, misty nature reserves, colonial-era city streets, and quiet stretches of untouched coastline, each adding another layer to the story.</p>
+          <p>It's a journey that doesn't rush from one highlight to the next, but instead lets you live inside the island's rhythm fully, day after unhurried day. With the KanHolidays {{ nights }} Nights {{ days }} Days {{ dest.name }} Package, you get the complete {{ dest.name }} experience with comfortable stays, thoughtfully paced days, and a journey that leaves no side of this island jewel unexplored.</p>
 
           <h3 style="margin-top:var(--space-xl);margin-bottom:var(--space-md)">Key Highlights</h3>
           <ul style="display:flex;flex-direction:column;gap:var(--space-sm)">
-            {{ HIGHLIGHTS_HTML }}
+            {% for hl in dest.highlights %}
+<li style="display:flex;align-items:center;gap:var(--space-sm);font-size:var(--text-sm)"><i class="fas fa-check-circle" style="color:var(--color-success)"></i> {{ hl }}</li>
+{% endfor %}
           </ul>
 
           <div class="pkg-quick-info">
             <div class="pkg-quick-info__item">
               <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-              <div><div class="pkg-quick-info__label">Best Time</div><div class="pkg-quick-info__value">{{ BEST_TIME }}</div></div>
+              <div><div class="pkg-quick-info__label">Best Time</div><div class="pkg-quick-info__value">{{ dest.best_time | default('Varies by season') }}</div></div>
             </div>
             <div class="pkg-quick-info__item">
               <i class="fas fa-signal" aria-hidden="true"></i>
@@ -324,7 +326,25 @@
 
           <div class="itinerary-timeline" id="itineraryTimeline">
 
-            {{ ITINERARY_HTML }}
+            {% for day in dest.itinerary %}
+            <div class="itinerary-day{% if loop.index0 == 0 %} active{% endif %}">
+              <div class="itinerary-day__marker"><div class="itinerary-day__marker-dot"></div></div>
+              <div class="itinerary-day__header" onclick="toggleDay(this)">
+                <span class="itinerary-day__number">Day {{ day.day }}</span>
+                <span class="itinerary-day__title">{{ day.title }}</span>
+                <i class="fas fa-chevron-down itinerary-day__toggle"></i>
+              </div>
+              <div class="itinerary-day__body">
+                <div class="itinerary-day__content">
+                  <div class="itinerary-day__meta">
+                    <span class="itinerary-meta-item"><i class="fas {{ day.icon_1 }}"></i> {{ day.meta_1 }}</span>
+                    <span class="itinerary-meta-item"><i class="fas fa-utensils"></i> Breakfast</span>
+                  </div>
+                  <p class="itinerary-day__text">{{ day.description }}</p>
+                </div>
+              </div>
+            </div>
+{% endfor %}
           </div>
         </div>
 
@@ -372,7 +392,7 @@
             <div class="hotel-card__info">
               <div class="hotel-card__name">Grand Baie Beach Resort</div>
               <div class="hotel-card__stars">⭐⭐⭐⭐ · Beachfront</div>
-              <div class="hotel-card__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Grand Baie, North Mauritius</div>
+              <div class="hotel-card__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Grand Baie, North {{ dest.name }}</div>
               <div class="hotel-card__amenities">
                 <span class="hotel-amenity"><i class="fas fa-check" aria-hidden="true"></i> Pool</span>
                 <span class="hotel-amenity"><i class="fas fa-check" aria-hidden="true"></i> WiFi</span>
@@ -391,7 +411,7 @@
             <div class="hotel-card__info">
               <div class="hotel-card__name">Le Morne Luxury Resort & Spa</div>
               <div class="hotel-card__stars">⭐⭐⭐⭐⭐ · Luxury Beachfront</div>
-              <div class="hotel-card__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Le Morne, South Mauritius</div>
+              <div class="hotel-card__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Le Morne, South {{ dest.name }}</div>
               <div class="hotel-card__amenities">
                 <span class="hotel-amenity"><i class="fas fa-check" aria-hidden="true"></i> Spa</span>
                 <span class="hotel-amenity"><i class="fas fa-check" aria-hidden="true"></i> Infinity Pool</span>
@@ -435,7 +455,7 @@
               </tr>
               <tr style="background:rgba(232,114,12,0.04)">
                 <td><strong>⭐⭐⭐⭐⭐ 5-Star</strong> <span class="badge badge--primary" style="margin-left:6px">Popular</span></td>
-                <td class="price-cell"><strong>₹99,625</strong></td>
+                <td class="price-cell"><strong>₹{{ dest.price }}</strong></td>
                 <td class="price-cell"><strong>₹92,000</strong></td>
                 <td class="price-cell"><strong>₹2,75,000</strong></td>
               </tr>
@@ -493,7 +513,7 @@
                 <div><div class="review-item__name">Vikram Kumar</div><div class="review-item__date">January 2025 · Family Trip</div></div>
                 <div class="review-item__stars">★★★★★</div>
               </div>
-              <p class="review-item__text">Took our family of 5 to Mauritius. Everything was perfectly organized — airport pickups, day tours, even restaurant recommendations. The kids loved the water sports at Ile aux Cerfs. The catamaran cruise was the highlight! Will definitely book again.</p>
+              <p class="review-item__text">Took our family of 5 to {{ dest.name }}. Everything was perfectly organized — airport pickups, day tours, even restaurant recommendations. The kids loved the water sports at Ile aux Cerfs. The catamaran cruise was the highlight! Will definitely book again.</p>
             </div>
             <div class="review-item">
               <div class="review-item__header">
@@ -501,7 +521,7 @@
                 <div><div class="review-item__name">Anita Sharma</div><div class="review-item__date">February 2025 · Honeymoon</div></div>
                 <div class="review-item__stars">★★★★★</div>
               </div>
-              <p class="review-item__text">Our honeymoon in Mauritius was absolutely magical! The Le Morne resort was beyond our dreams — the infinity pool overlooking the ocean was stunning. KanHolidays made every detail perfect. The Chamarel coloured earths were mesmerizing!</p>
+              <p class="review-item__text">Our honeymoon in {{ dest.name }} was absolutely magical! The Le Morne resort was beyond our dreams — the infinity pool overlooking the ocean was stunning. KanHolidays made every detail perfect. The Chamarel coloured earths were mesmerizing!</p>
             </div>
             <div class="review-item">
               <div class="review-item__header">
@@ -520,12 +540,12 @@
           <h2 class="pkg-section__title"><i class="fas fa-question-circle" aria-hidden="true"></i> Frequently Asked Questions</h2>
           <div class="faq-list">
             <div class="accordion-item active">
-              <button class="accordion-header" onclick="toggleAccordion(this)">Is visa required for Mauritius? <i class="fas fa-chevron-down accordion-icon" aria-hidden="true"></i></button>
-              <div class="accordion-body"><div class="accordion-content">Indian citizens get visa-free entry to Mauritius for up to 60 days. You need a valid passport (6 months validity), return flight tickets, hotel booking confirmation, and proof of sufficient funds.</div></div>
+              <button class="accordion-header" onclick="toggleAccordion(this)">Is visa required for {{ dest.name }}? <i class="fas fa-chevron-down accordion-icon" aria-hidden="true"></i></button>
+              <div class="accordion-body"><div class="accordion-content">Indian citizens get visa-free entry to {{ dest.name }} for up to 60 days. You need a valid passport (6 months validity), return flight tickets, hotel booking confirmation, and proof of sufficient funds.</div></div>
             </div>
             <div class="accordion-item">
-              <button class="accordion-header" onclick="toggleAccordion(this)">What is the best time to visit Mauritius? <i class="fas fa-chevron-down accordion-icon" aria-hidden="true"></i></button>
-              <div class="accordion-body"><div class="accordion-content">The best time to visit Mauritius is from May to December when the weather is warm and dry. The peak tourist season is September to November. Avoid January to March due to cyclone season.</div></div>
+              <button class="accordion-header" onclick="toggleAccordion(this)">What is the best time to visit {{ dest.name }}? <i class="fas fa-chevron-down accordion-icon" aria-hidden="true"></i></button>
+              <div class="accordion-body"><div class="accordion-content">The best time to visit {{ dest.name }} is from May to December when the weather is warm and dry. The peak tourist season is September to November. Avoid January to March due to cyclone season.</div></div>
             </div>
             <div class="accordion-item">
               <button class="accordion-header" onclick="toggleAccordion(this)">Can I customize this package? <i class="fas fa-chevron-down accordion-icon" aria-hidden="true"></i></button>
@@ -545,7 +565,7 @@
             </div>
             <div class="accordion-item">
               <button class="accordion-header" onclick="toggleAccordion(this)">Can I extend my stay? <i class="fas fa-chevron-down accordion-icon" aria-hidden="true"></i></button>
-              <div class="accordion-body"><div class="accordion-content">Yes, you can extend your stay in Mauritius. Additional nights can be arranged at the same hotel or a different one. Extra charges will apply based on the hotel category and dates.</div></div>
+              <div class="accordion-body"><div class="accordion-content">Yes, you can extend your stay in {{ dest.name }}. Additional nights can be arranged at the same hotel or a different one. Extra charges will apply based on the hotel category and dates.</div></div>
             </div>
             <div class="accordion-item">
               <button class="accordion-header" onclick="toggleAccordion(this)">What's the group size? <i class="fas fa-chevron-down accordion-icon" aria-hidden="true"></i></button>
@@ -563,7 +583,7 @@
           <div class="booking-price-block">
             <div class="booking-price-label">Starting from</div>
             <div class="booking-price-original">₹1,10,000</div>
-            <div class="booking-price-current">₹99,625</div>
+            <div class="booking-price-current">₹{{ dest.price }}</div>
             <div class="booking-price-per">per person</div>
           </div>
 
@@ -587,13 +607,13 @@
               <select class="form-select" id="hotelCat">
                 <option>3-Star — ₹72,250/pp</option>
                 <option>4-Star — ₹90,820/pp</option>
-                <option selected>5-Star — ₹99,625/pp</option>
+                <option selected>5-Star — ₹{{ dest.price }}/pp</option>
               </select>
             </div>
 
-            <button class="btn btn--primary btn--block btn--lg" onclick="openCallbackModal('65','Mauritius')">📞 Get Free Callback</button>
+            <button class="btn btn--primary btn--block btn--lg" onclick="openCallbackModal('65','{{ dest.name }}')">📞 Get Free Callback</button>
             <div style="height:var(--space-sm)"></div>
-            <a href="https://wa.me/919311957339?text=Hi!%20I'm%20interested%20in%20The%20Complete%20Mauritius%20Experience%20(9N10D)" target="_blank" class="btn btn--whatsapp btn--block">💬 WhatsApp Us</a>
+            <a href="https://wa.me/919311957339?text=Hi!%20I'm%20interested%20in%20The%20Complete%20{{ dest.name }}%20Experience%20(9N10D)" target="_blank" class="btn btn--whatsapp btn--block">💬 WhatsApp Us</a>
             <div style="height:var(--space-sm)"></div>
             <button class="btn btn--secondary btn--block">🎯 Book Now</button>
           </form>
@@ -620,17 +640,17 @@
   <div class="container">
     <div class="section-header">
       <h2>You Might Also Like</h2>
-      <p>Other Mauritius packages and similar island destinations</p>
+      <p>Other {{ dest.name }} packages and similar island destinations</p>
     </div>
 
     <div class="grid grid--3" id="relatedGrid">
       <div class="card" onclick="location.href='/packages/a-slice-of-paradise-mauritius'">
         <div class="card__image">
-          <img src="https://kanholidays.com/storage/packages/LdVTOWkNOvX0XjpFYCL7SCzVOI39EZDHdcbDUVdO.png" alt="A Slice of Paradise: Mauritius" width="400" height="250" loading="lazy">
-          <span class="card__badge">Mauritius</span>
+          <img src="https://kanholidays.com/storage/packages/LdVTOWkNOvX0XjpFYCL7SCzVOI39EZDHdcbDUVdO.png" alt="A Slice of Paradise: {{ dest.name }}" width="400" height="250" loading="lazy">
+          <span class="card__badge">{{ dest.name }}</span>
         </div>
         <div class="card__body">
-          <h3 class="card__title">A Slice of Paradise: Mauritius</h3>
+          <h3 class="card__title">A Slice of Paradise: {{ dest.name }}</h3>
           <div class="card__chips"><span class="chip"><i class="fas fa-clock" aria-hidden="true"></i> 5D4N</span><span class="chip"><i class="fas fa-hotel" aria-hidden="true"></i> Hotel</span></div>
           <div class="card__footer">
             <div class="card__price"><span class="card__price-current">₹45,750</span><span class="card__price-label">per person</span></div>
@@ -641,11 +661,11 @@
 
       <div class="card" onclick="location.href='/packages/experience-the-tropical-bliss'">
         <div class="card__image">
-          <img src="https://kanholidays.com/storage/packages/2R5loukLDe9sQETIAdGynJZBiNEG1clqzWluiEZT.png" alt="Experience the Tropical Bliss at Mauritius" width="400" height="250" loading="lazy">
-          <span class="card__badge">Mauritius</span>
+          <img src="https://kanholidays.com/storage/packages/2R5loukLDe9sQETIAdGynJZBiNEG1clqzWluiEZT.png" alt="Experience the Tropical Bliss at {{ dest.name }}" width="400" height="250" loading="lazy">
+          <span class="card__badge">{{ dest.name }}</span>
         </div>
         <div class="card__body">
-          <h3 class="card__title">Experience the Tropical Bliss at Mauritius</h3>
+          <h3 class="card__title">Experience the Tropical Bliss at {{ dest.name }}</h3>
           <div class="card__chips"><span class="chip"><i class="fas fa-clock" aria-hidden="true"></i> 6D5N</span><span class="chip"><i class="fas fa-hotel" aria-hidden="true"></i> Hotel</span></div>
           <div class="card__footer">
             <div class="card__price"><span class="card__price-current">₹54,225</span><span class="card__price-label">per person</span></div>
@@ -678,12 +698,12 @@
 <!-- MOBILE BOOKING BAR -->
 <div class="mobile-booking-bar no-print">
   <div class="mobile-booking-bar__price">
-    <strong>₹99,625</strong>
+    <strong>₹{{ dest.price }}</strong>
     <span>per person</span>
   </div>
   <div class="mobile-booking-bar__actions">
     <a href="tel:+919311957339" class="btn btn--outline btn--sm"><i class="fas fa-phone-alt" aria-hidden="true"></i></a>
-    <button class="btn btn--primary btn--sm" onclick="openCallbackModal('65','Mauritius')">Book Now</button>
+    <button class="btn btn--primary btn--sm" onclick="openCallbackModal('65','{{ dest.name }}')">Book Now</button>
   </div>
 </div>
 
@@ -703,7 +723,7 @@
         </div>
       </div>
       <div class="footer-col"><h4>Quick Links</h4><ul class="footer-links"><li><a href="/about-us">About Us</a></li><li><a href="/blogs">Blog</a></li><li><a href="/upcoming-trips">Upcoming Trips</a></li><li><a href="/visa">Visa Services</a></li><li><a href="/pay-us">Pay Us</a></li></ul></div>
-      <div class="footer-col"><h4>Top Destinations</h4><ul class="footer-links"><li><a href="/destinations/bali">Bali</a></li><li><a href="/destinations/dubai">Dubai</a></li><li><a href="/destinations/maldives">Maldives</a></li><li><a href="/destinations/kashmir">Kashmir</a></li><li><a href="/destinations/mauritius">Mauritius</a></li></ul></div>
+      <div class="footer-col"><h4>Top Destinations</h4><ul class="footer-links"><li><a href="/destinations/bali">Bali</a></li><li><a href="/destinations/dubai">Dubai</a></li><li><a href="/destinations/maldives">Maldives</a></li><li><a href="/destinations/kashmir">Kashmir</a></li><li><a href="/destinations/mauritius">{{ dest.name }}</a></li></ul></div>
       <div class="footer-col"><h4>Contact</h4><div class="footer-contact-item"><i class="fas fa-phone-alt" aria-hidden="true"></i><a href="tel:+919311957339" style="color:rgba(255,255,255,0.8)">+91-9311957339</a></div><div class="footer-contact-item"><i class="fab fa-whatsapp" aria-hidden="true"></i><a href="https://wa.me/919311957339" style="color:rgba(255,255,255,0.8)">WhatsApp</a></div><div class="footer-contact-item"><i class="fas fa-envelope" aria-hidden="true"></i>info@kanholidays.com</div><div class="footer-contact-item"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><a href="https://maps.app.goo.gl/RyWdaLRrdKs4jULx5" target="_blank" style="color:rgba(255,255,255,0.8)">New Delhi, India</a></div></div>
     </div>
     <div class="footer-bottom">
@@ -720,7 +740,7 @@
 <!-- WhatsApp Widget -->
 <div class="whatsapp-widget no-print">
   <div class="whatsapp-tooltip">💬 Chat with us about this trip!</div>
-  <a href="https://wa.me/919311957339?text=Hi!%20I'm%20interested%20in%20The%20Complete%20Mauritius%20Experience" target="_blank" class="whatsapp-btn"><i class="fab fa-whatsapp" aria-hidden="true"></i><span class="sr-only">WhatsApp</span></a>
+  <a href="https://wa.me/919311957339?text=Hi!%20I'm%20interested%20in%20The%20Complete%20{{ dest.name }}%20Experience" target="_blank" class="whatsapp-btn"><i class="fab fa-whatsapp" aria-hidden="true"></i><span class="sr-only">WhatsApp</span></a>
 </div>
 
 <!-- Callback Modal -->
@@ -740,7 +760,7 @@
 </div>
 
 
-<script src="/js/main.js"></script>
+<script type="module" src="/js/main.js"></script>
 
 <script>
 // ── Header Scroll ──
